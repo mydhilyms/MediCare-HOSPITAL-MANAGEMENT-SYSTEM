@@ -1,0 +1,49 @@
+<div class="page" id="page-staff">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Staff Management</h1>
+      <p class="page-subtitle">Hospital staff directory and attendance tracking</p>
+    </div>
+    <button class="btn btn-primary" onclick="toast('Opening staff registration form…','info')">
+      <i class="fas fa-user-plus"></i> Add Staff
+    </button>
+  </div>
+
+  <div class="stats-grid mb-6">
+    <div class="stat-card blue"><div class="stat-icon blue"><i class="fas fa-users"></i></div><div><div class="stat-value">186</div><div class="stat-label">Total Staff</div></div></div>
+    <div class="stat-card success"><div class="stat-icon success"><i class="fas fa-user-check"></i></div><div><div class="stat-value">154</div><div class="stat-label">Present Today</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--danger)"><div class="stat-icon" style="background:#FEE2E2;color:var(--danger)"><i class="fas fa-user-times"></i></div><div><div class="stat-value">18</div><div class="stat-label">Absent</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--warning)"><div class="stat-icon" style="background:#FEF3C7;color:var(--warning)"><i class="fas fa-umbrella-beach"></i></div><div><div class="stat-value">14</div><div class="stat-label">On Leave</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header flex-wrap gap-3">
+      <span class="card-title">Staff Directory</span>
+      <div class="flex gap-3 flex-wrap flex-1 justify-end">
+        <div class="search-bar" style="max-width:280px">
+          <i class="fas fa-search"></i>
+          <input type="search" id="staff-search" placeholder="Search staff…" />
+        </div>
+        <select class="form-control" style="width:auto;padding:.6rem 2.2rem .6rem .9rem">
+          <option>All Departments</option><option>Nursing</option><option>Radiology</option><option>Laboratory</option><option>Admin</option><option>Pharmacy</option>
+        </select>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr><th>Staff ID</th><th>Name</th><th>Department</th><th>Position</th><th>Contact</th><th>Attendance</th><th>Actions</th></tr>
+        </thead>
+        <tbody id="staff-tbody"></tbody>
+      </table>
+    </div>
+    <div style="padding:1rem 1.5rem;border-top:1px solid var(--gray-100);display:flex;align-items:center;justify-content:space-between">
+      <span class="text-sm text-muted">Showing 1–8 of 186 staff members</span>
+      <div class="pagination">
+        <div class="page-btn"><i class="fas fa-chevron-left"></i></div>
+        <div class="page-btn active">1</div><div class="page-btn">2</div><div class="page-btn">3</div>
+        <div class="page-btn"><i class="fas fa-chevron-right"></i></div>
+      </div>
+    </div>
+  </div>
+</div>

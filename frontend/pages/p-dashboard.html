@@ -1,0 +1,169 @@
+<div class="page active" id="page-dashboard">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Good morning, Dr. Admin 👋</h1>
+      <p class="page-subtitle">Here's what's happening at MediCare Hospital today</p>
+    </div>
+    <div class="page-header-actions">
+      <button class="btn btn-outline" onclick="toast('Refreshing data...','info')"><i class="fas fa-sync-alt"></i> <span class="btn-text-hide">Refresh</span></button>
+      <button class="btn btn-primary" onclick="navigate('appointments')"><i class="fas fa-calendar-plus"></i> <span class="btn-text-hide">New Appointment</span></button>
+    </div>
+  </div>
+
+  <!-- Stat Cards -->
+  <div class="stats-grid mb-6">
+    <div class="stat-card blue">
+      <div class="stat-icon blue"><i class="fas fa-user-injured"></i></div>
+      <div>
+        <div class="stat-value count-up" data-target="2847">0</div>
+        <div class="stat-label">Total Patients</div>
+        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 12% this month</div>
+      </div>
+    </div>
+    <div class="stat-card teal">
+      <div class="stat-icon teal"><i class="fas fa-user-md"></i></div>
+      <div>
+        <div class="stat-value count-up" data-target="48">0</div>
+        <div class="stat-label">Active Doctors</div>
+        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 3 new this month</div>
+      </div>
+    </div>
+    <div class="stat-card success">
+      <div class="stat-icon success"><i class="fas fa-calendar-check"></i></div>
+      <div>
+        <div class="stat-value count-up" data-target="126">0</div>
+        <div class="stat-label">Today's Appointments</div>
+        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 8% vs yesterday</div>
+      </div>
+    </div>
+    <div class="stat-card purple">
+      <div class="stat-icon purple"><i class="fas fa-dollar-sign"></i></div>
+      <div>
+        <div class="stat-value">$<span class="count-up" data-target="94250">0</span></div>
+        <div class="stat-label">Monthly Revenue</div>
+        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 18% vs last month</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 1 -->
+  <div class="three-col mb-6">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-chart-bar text-primary" style="margin-right:.5rem"></i>Weekly Appointments</span>
+        <div class="chart-tabs">
+          <span class="chart-tab active">Week</span>
+          <span class="chart-tab">Month</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="chart-container"><canvas id="appt-chart"></canvas></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-chart-pie text-teal" style="margin-right:.5rem"></i>Departments</span>
+      </div>
+      <div class="card-body">
+        <div class="chart-container" style="height:220px"><canvas id="dept-chart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 2 -->
+  <div class="three-col mb-6">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-chart-line text-primary" style="margin-right:.5rem"></i>Patient Statistics</span>
+        <div class="chart-tabs">
+          <span class="chart-tab active">2024</span>
+          <span class="chart-tab">2023</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="chart-container"><canvas id="patient-chart"></canvas></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-history text-warning" style="margin-right:.5rem"></i>Recent Activity</span>
+        <a href="#" class="text-primary text-sm fw-500">View all</a>
+      </div>
+      <div class="card-body" style="padding-top:.5rem">
+        <div id="activity-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Row -->
+  <div class="two-col">
+    <!-- Today's Schedule -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-clock text-teal" style="margin-right:.5rem"></i>Today's Schedule</span>
+        <button class="btn btn-primary btn-sm" onclick="navigate('appointments')">View All</button>
+      </div>
+      <div class="card-body" style="padding:0">
+        <table class="table">
+          <thead><tr><th>Patient</th><th>Doctor</th><th>Time</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><div class="flex items-center gap-2"><div class="avatar avatar-sm" style="background:#2563EB">EJ</div> Emma Johnson</div></td>
+              <td>Dr. Sarah Chen</td><td>09:00 AM</td><td><span class="badge badge-success">Confirmed</span></td>
+            </tr>
+            <tr>
+              <td><div class="flex items-center gap-2"><div class="avatar avatar-sm" style="background:#0D9488">MC</div> Michael Chen</div></td>
+              <td>Dr. James Wilson</td><td>10:30 AM</td><td><span class="badge badge-warning">Pending</span></td>
+            </tr>
+            <tr>
+              <td><div class="flex items-center gap-2"><div class="avatar avatar-sm" style="background:#8B5CF6">SW</div> Sophia Williams</div></td>
+              <td>Dr. Priya Nair</td><td>11:00 AM</td><td><span class="badge badge-success">Confirmed</span></td>
+            </tr>
+            <tr>
+              <td><div class="flex items-center gap-2"><div class="avatar avatar-sm" style="background:#F59E0B">OM</div> Olivia Martinez</div></td>
+              <td>Dr. Ahmed Hassan</td><td>02:00 PM</td><td><span class="badge badge-danger">Cancelled</span></td>
+            </tr>
+            <tr>
+              <td><div class="flex items-center gap-2"><div class="avatar avatar-sm" style="background:#EF4444">JA</div> James Anderson</div></td>
+              <td>Dr. Daniel Lee</td><td>03:30 PM</td><td><span class="badge badge-warning">Pending</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Department Load -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-hospital text-purple" style="margin-right:.5rem"></i>Department Load</span>
+        <span class="badge badge-primary">This Week</span>
+      </div>
+      <div class="card-body">
+        <div class="mb-4">
+          <div class="flex justify-between mb-1"><span class="text-sm fw-500">Cardiology</span><span class="text-sm fw-700" style="color:var(--primary)">85%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="85" style="background:var(--primary);width:0"></div></div>
+        </div>
+        <div class="mb-4">
+          <div class="flex justify-between mb-1"><span class="text-sm fw-500">Endocrinology</span><span class="text-sm fw-700" style="color:var(--teal)">72%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="72" style="background:var(--teal);width:0"></div></div>
+        </div>
+        <div class="mb-4">
+          <div class="flex justify-between mb-1"><span class="text-sm fw-500">Neurology</span><span class="text-sm fw-700" style="color:var(--purple)">68%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="68" style="background:var(--purple);width:0"></div></div>
+        </div>
+        <div class="mb-4">
+          <div class="flex justify-between mb-1"><span class="text-sm fw-500">Nephrology</span><span class="text-sm fw-700" style="color:var(--warning)">59%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="59" style="background:var(--warning);width:0"></div></div>
+        </div>
+        <div class="mb-4">
+          <div class="flex justify-between mb-1"><span class="text-sm fw-500">Orthopedics</span><span class="text-sm fw-700" style="color:var(--success)">45%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="45" style="background:var(--success);width:0"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between mb-1"><span class="text-sm fw-500">Pulmonology</span><span class="text-sm fw-700" style="color:var(--danger)">38%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="38" style="background:var(--danger);width:0"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

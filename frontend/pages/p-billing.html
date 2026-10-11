@@ -1,0 +1,20 @@
+<div class="page" id="page-billing">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Billing &amp; Invoices</h1>
+      <p class="page-subtitle">Manage patient invoices, payments, and financial records</p>
+    </div>
+    <button class="btn btn-primary" onclick="toast('Opening invoice generator…','info')">
+      <i class="fas fa-file-invoice"></i> New Invoice
+    </button>
+  </div>
+
+  <div class="stats-grid mb-6">
+    <div class="stat-card blue"><div class="stat-icon blue"><i class="fas fa-dollar-sign"></i></div><div><div class="stat-value">$94,250</div><div class="stat-label">Revenue (Month)</div></div></div>
+    <div class="stat-card success"><div class="stat-icon success"><i class="fas fa-check-circle"></i></div><div><div class="stat-value">$78,420</div><div class="stat-label">Paid</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--warning)"><div class="stat-icon" style="background:#FEF3C7;color:var(--warning)"><i class="fas fa-clock"></i></div><div><div class="stat-value">$12,830</div><div class="stat-label">Pending</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--danger)"><div class="stat-icon" style="background:#FEE2E2;color:var(--danger)"><i class="fas fa-times"></i></div><div><div class="stat-value">$3,000</div><div class="stat-label">Overdue</div></div></div>
+  </div>
+
+  <div id="billing-list"></div>
+</div>

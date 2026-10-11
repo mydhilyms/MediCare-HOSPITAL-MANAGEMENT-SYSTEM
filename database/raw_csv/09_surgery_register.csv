@@ -1,0 +1,91 @@
+paper_row,ot_id,ot_branch_id,ot_branch_location,ot_current_status,ot_schedule_id,patient_id,patient_name,doctor_id,doctor_name,nurse_id,nurse_name,procedure,schedule_start,schedule_end,operation_status,related_appointment_reference
+1,901,101,  Kochi Main Hospital  ,available,7001,1001,  Bhavna Shankar  ,201,DR. EKAJA THAKKAR,301,vyanjana deshmukh,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3001
+2,901,101,KOCHI MAIN HOSPITAL,available,7002,1007,OSHA SRINIVAS,202,dr. udant salvi,302, Urvashi Deep ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3021
+3,901,101,kochi main hospital,available,7003,1002,dayamai bakshi,201, Dr. Ekaja Thakkar ,303,Frado Sahni,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3031
+4,902,102, Ernakulam City Branch ,available,7004,1011, Jairaj Shan ,204,Dr. Faris Choudhry,304,Krisha Atwal,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3007
+5,902,102,Ernakulam City Branch,available,7005,1020,Edhitha Shankar,205,Dr. Guneet Sengupta,305,Lopa Borah,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3028
+6,902,102,Ernakulam City Branch,available,7006,1001,Bhavna Shankar,204,Dr. Faris Choudhry,306,  Idika Pandit  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3033
+7,903,103,Thrissur Medical Centre,available,7007,1021,Raksha Varma,208,  Dr. Ishanvi Puri  ,307,ESHANA DARA,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3013
+8,903,103,  Thrissur Medical Centre  ,available,7008,1029,  Chaitanya Loyal  ,209,DR. HARINI CHAKRABORTY,308,unnati garde,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3030
+9,903,103,THRISSUR MEDICAL CENTRE,available,7009,1030,MOHAMMED AHLUWALIA,208,dr. ishanvi puri,309, Zinal Jhaveri ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3035
+10,904,101,  Kochi Main Hospital  ,available,7010,1031,  Omisha Borah  ,210,DR. CHAKRIKA BHATTI,310,pooja chand,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3037
+11,904,101,KOCHI MAIN HOSPITAL,available,7011,1037,VASUDHA DEEP,211,dr. oeshi andra,311, Priya Kulkarni ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3057
+12,904,101,kochi main hospital,available,7012,1032,wazir sama,210, Dr. Chakrika Bhatti ,312,Manya Loke,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3067
+13,905,102, Ernakulam City Branch ,available,7013,1041, Vyanjana Wali ,213,Dr. Sai Morar,313,Aarini Jaggi,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3043
+14,905,102,Ernakulam City Branch,available,7014,1050,Turvi Krishnamurthy,214,Dr. Timothy Mallick,314,Arjun Bhagat,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3064
+15,905,102,Ernakulam City Branch,available,7015,1031,Omisha Borah,213,Dr. Sai Morar,315,  Manthan Oza  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3069
+16,906,103,Thrissur Medical Centre,available,7016,1051,Harish Prashad,217,  Dr. Dhruv Ray  ,316,ADWETA YADAV,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3049
+17,906,103,  Thrissur Medical Centre  ,available,7017,1059,  Veer Sunder  ,218,DR. QASIM RAMASWAMY,317,chaaya chad,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3066
+18,906,103,THRISSUR MEDICAL CENTRE,available,7018,1060,WAHAB CHATTERJEE,217,dr. dhruv ray,318, Januja Kalita ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3071
+19,907,101,  Kochi Main Hospital  ,available,7019,1061,  Chanakya Nagar  ,219,DR. INDALI PALLA,319,dayamai setty,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3073
+20,907,101,KOCHI MAIN HOSPITAL,available,7020,1067,ZAID MAND,220,dr. ekantika sachdeva,320, Girindra Sachar ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3093
+21,907,101,kochi main hospital,available,7021,1062,advaith raju,219, Dr. Indali Palla ,321,Owen Sen,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3103
+22,908,102, Ernakulam City Branch ,available,7022,1071, Elijah Wali ,222,Dr. Upadhriti Bandi,322,Tanveer Shere,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3079
+23,908,102,Ernakulam City Branch,available,7023,1080,Wazir Basu,223,Dr. Rudra Mukhopadhyay,323,Vihaan Prasad,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3100
+24,908,102,Ernakulam City Branch,available,7024,1061,Chanakya Nagar,222,Dr. Upadhriti Bandi,324,  Nitesh Bora  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3105
+25,909,103,Thrissur Medical Centre,available,7025,1081,Ranveer Lalla,226,  Dr. Amruta Parmer  ,325,HIRAL PINGLE,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3085
+26,909,103,  Thrissur Medical Centre  ,available,7026,1089,  Ati Gopal  ,227,DR. MAANAV BATTA,326,abhiram bhatti,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3102
+27,909,103,THRISSUR MEDICAL CENTRE,available,7027,1090,KASHISH BHALLA,226,dr. amruta parmer,327, Udant Garde ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3107
+28,910,101,  Kochi Main Hospital  ,available,7028,1091,  Harita Minhas  ,228,DR. MADHAVI BASAK,328,xavier dhillon,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3109
+29,910,101,KOCHI MAIN HOSPITAL,available,7029,1097,ISHANVI VARTY,229,dr. yashawini sehgal,329, Neelima Handa ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3129
+30,910,101,kochi main hospital,available,7030,1092,harsh goyal,228, Dr. Madhavi Basak ,330,Noah Thakkar,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3139
+31,911,102, Ernakulam City Branch ,available,7031,1101, Ishaan Hayre ,231,Dr. Arin Singhal,331,Charita Warrior,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3115
+32,911,102,Ernakulam City Branch,available,7032,1110,Ekiya Naidu,232,Dr. Eiravati Dugal,332,Arjun Solanki,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3136
+33,911,102,Ernakulam City Branch,available,7033,1091,Harita Minhas,231,Dr. Arin Singhal,333,  Ayushman Rai  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3141
+34,912,103,Thrissur Medical Centre,available,7034,1111,Ekani Merchant,235,  Dr. Nitesh Bajaj  ,334,MAX THAKKAR,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3121
+35,912,103,  Thrissur Medical Centre  ,available,7035,1119,  Wahab Gulati  ,236,DR. VIVAAN MALLICK,335,warhi buch,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3138
+36,912,103,THRISSUR MEDICAL CENTRE,available,7036,1120,QARIN DUTTA,235,dr. nitesh bajaj,336, Aahana Kunda ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3143
+37,913,101,  Kochi Main Hospital  ,available,7037,1121,  Onkar Chahal  ,237,DR. AYAAN KULKARNI,337,gabriel kala,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3145
+38,913,101,KOCHI MAIN HOSPITAL,available,7038,1127,NAVEEN BARAD,238,dr. indali pillai,338, Isha Gulati ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3165
+39,913,101,kochi main hospital,available,7039,1122,bhavika subramanian,237, Dr. Ayaan Kulkarni ,339,Aachal Sabharwal,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3175
+40,914,102, Ernakulam City Branch ,available,7040,1131, Darsh Khurana ,240,Dr. Hamsini Dani,340,Shaurya Subramanian,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3151
+41,914,102,Ernakulam City Branch,available,7041,1140,Mekhala Parekh,241,Dr. Barkha Kannan,341,Libni Gade,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3172
+42,914,102,Ernakulam City Branch,available,7042,1121,Onkar Chahal,240,Dr. Hamsini Dani,342,  Adya Sankaran  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3177
+43,915,103,Thrissur Medical Centre,available,7043,1141,Darika Tailor,244,  Dr. Raghav Mand  ,343,RISHI SEHGAL,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3157
+44,915,103,  Thrissur Medical Centre  ,available,7044,1149,  Anusha Rastogi  ,245,DR. NILIMA SHETH,344,wakeeta chokshi,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3174
+45,915,103,THRISSUR MEDICAL CENTRE,available,7045,1150,URVASHI WAGLE,244,dr. raghav mand,345, Rohan Bhardwaj ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3179
+46,916,101,  Kochi Main Hospital  ,available,7046,1151,  Triya Bhat  ,246,DR. ISHITA NAGARAJAN,346,jason chand,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3181
+47,916,101,KOCHI MAIN HOSPITAL,available,7047,1157,NOAH ROUT,247,dr. balhaar kohli,347, Kashish Date ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3201
+48,916,101,kochi main hospital,available,7048,1152,gagan rastogi,246, Dr. Ishita Nagarajan ,348,Damyanti Garde,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3211
+49,917,102, Ernakulam City Branch ,available,7049,1161, Ikshita Solanki ,249,Dr. Nakul Sachdev,349,Charan Patel,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3187
+50,917,102,Ernakulam City Branch,available,7050,1170,Aishani Behl,250,Dr. Alexander Sachdev,350,Garima Kara,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3208
+51,917,102,Ernakulam City Branch,available,7051,1151,Triya Bhat,249,Dr. Nakul Sachdev,351,  Onveer Murty  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3213
+52,918,103,Thrissur Medical Centre,available,7052,1171,Ikshita Arya,253,  Dr. Nidhi Ratta  ,352,ISHWAR SAVANT,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3193
+53,918,103,  Thrissur Medical Centre  ,available,7053,1179,  Triveni Mangal  ,254,DR. SANAYA ARYA,353,dayita mall,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3210
+54,918,103,THRISSUR MEDICAL CENTRE,available,7054,1180,DIYA BATTA,253,dr. nidhi ratta,354, Ranbir Luthra ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3215
+55,919,101,  Kochi Main Hospital  ,available,7055,1181,  Vihaan Mani  ,255,DR. WAZIR TANEJA,355,turvi chahal,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3217
+56,919,101,KOCHI MAIN HOSPITAL,available,7056,1187,NICHOLAS GHOSE,256,dr. vamakshi manda,356, Nathaniel Gopal ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3237
+57,919,101,kochi main hospital,available,7057,1182,qadim chacko,255, Dr. Wazir Taneja ,357,Kiaan Tata,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3247
+58,920,102, Ernakulam City Branch ,available,7058,1191, Gagan Dugar ,258,Dr. Daksh Madan,358,Indira Yohannan,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3223
+59,920,102,Ernakulam City Branch,available,7059,1200,Dhruv Chowdhury,259,Dr. Brijesh Srinivas,359,Qarin Contractor,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3244
+60,920,102,Ernakulam City Branch,available,7060,1181,Vihaan Mani,258,Dr. Daksh Madan,360,  Yamini Mand  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3249
+61,921,103,Thrissur Medical Centre,available,7061,1201,Oscar Palla,262,  Dr. Devansh Chauhan  ,361,UPKAAR AMBLE,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3229
+62,921,103,  Thrissur Medical Centre  ,available,7062,1209,  Ekaraj Rai  ,263,DR. SAMAKSH DALAL,362,urvi rama,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3246
+63,921,103,THRISSUR MEDICAL CENTRE,available,7063,1210,SHIVANSH DUGAL,262,dr. devansh chauhan,363, Xiti Jaggi ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3251
+64,922,101,  Kochi Main Hospital  ,available,7064,1211,  Aarini Khalsa  ,264,DR. BALHAAR CHEEMA,364,anmol saha,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3253
+65,922,101,KOCHI MAIN HOSPITAL,available,7065,1217,CHANCHAL SASTRY,265,dr. zehaan rastogi,365, Niharika Parsa ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3273
+66,922,101,kochi main hospital,available,7066,1212,chatura kadakia,264, Dr. Balhaar Cheema ,366,Udarsh Viswanathan,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3283
+67,923,102, Ernakulam City Branch ,available,7067,1221, Jatin Devan ,267,Dr. Yadavi Naik,367,Meera Ganesan,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3259
+68,923,102,Ernakulam City Branch,available,7068,1230,Champak Shan,268,Dr. Parth Merchant,368,Anthony Palla,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3280
+69,923,102,Ernakulam City Branch,available,7069,1211,Aarini Khalsa,267,Dr. Yadavi Naik,369,  Arjun Saini  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3285
+70,924,103,Thrissur Medical Centre,available,7070,1231,Ekbal Ghose,271,  Dr. Krishna Iyengar  ,370,JYOTI KASHYAP,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3265
+71,924,103,  Thrissur Medical Centre  ,available,7071,1239,  Michael Pau  ,272,DR. NANDINI SHETH,371,mahika mani,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3282
+72,924,103,THRISSUR MEDICAL CENTRE,available,7072,1240,AACHAL PRASAD,271,dr. krishna iyengar,372, Sathvik Bala ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3287
+73,925,101,  Kochi Main Hospital  ,available,7073,1241,  Sanya Bhavsar  ,273,DR. AYUSH KAR,373,indrajit ahluwalia,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3289
+74,925,101,KOCHI MAIN HOSPITAL,available,7074,1247,BHAVANI ZACHARIAH,274,dr. chatresh om,374, Gautami Kalla ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3309
+75,925,101,kochi main hospital,available,7075,1242,ryan deshpande,273, Dr. Ayush Kar ,375,Omya Sachdeva,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3319
+76,926,102, Ernakulam City Branch ,available,7076,1251, Hiral Chanda ,276,Dr. Harita Dasgupta,376,Yagnesh Mutti,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3295
+77,926,102,Ernakulam City Branch,available,7077,1260,Gopal Divan,277,Dr. Rudra Bhalla,377,Chakradev Madan,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3316
+78,926,102,Ernakulam City Branch,available,7078,1241,Sanya Bhavsar,276,Dr. Harita Dasgupta,378,  Sneha Solanki  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3321
+79,927,103,Thrissur Medical Centre,available,7079,1261,Ekavir Patla,280,  Dr. Darsh Kannan  ,379,YAHVI MISTRY,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3301
+80,927,103,  Thrissur Medical Centre  ,available,7080,1269,  Abha Amble  ,281,DR. LEKHA SARAF,380,bhavika buch,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3318
+81,927,103,THRISSUR MEDICAL CENTRE,available,7081,1270,EESHA DUGAR,280,dr. darsh kannan,381, Yadavi Roy ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3323
+82,928,101,  Kochi Main Hospital  ,available,7082,1271,  Caleb Kaul  ,282,DR. TRIYA DIN,382,vasatika bir,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed,3325
+83,928,101,KOCHI MAIN HOSPITAL,available,7083,1277,VICTOR MALHOTRA,283,dr. yamini natt,383, Anusha Pall ,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00, completed ,3345
+84,928,101,kochi main hospital,available,7084,1272,upma chanda,282, Dr. Triya Din ,384,Nikita Thaker,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled,3355
+85,929,102, Ernakulam City Branch ,available,7085,1281, Advik Mahal ,285,Dr. Dipta Karan,385,Onkar Pathak,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed,3331
+86,929,102,Ernakulam City Branch,available,7086,1290,Yasti Bhatnagar,286,Dr. Anay Master,386,Dakshesh Shenoy,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed,3352
+87,929,102,Ernakulam City Branch,available,7087,1271,Caleb Kaul,285,Dr. Dipta Karan,387,  Advik Ahuja  ,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,  scheduled  ,3357
+88,930,103,Thrissur Medical Centre,available,7088,1291,Bishakha Hari,289,  Dr. Ekbal Chatterjee  ,388,OMKAAR GREWAL,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,COMPLETED,3337
+89,930,103,  Thrissur Medical Centre  ,available,7089,1299,  Wazir Varughese  ,290,DR. CHARVI SARAF,389,raghav chaudhuri,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed,3354
+90,930,103,THRISSUR MEDICAL CENTRE,available,7090,1300,BALVAN NAGARAJAN,289,dr. ekbal chatterjee,390, Chaman Mall ,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00, scheduled ,3359

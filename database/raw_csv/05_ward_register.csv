@@ -1,0 +1,121 @@
+paper_row,branch_id,branch_location,room_no,room_type,critical_care_monitoring,availability_status,admission_history
+1,101,  Kochi Main Hospital  ,101,  private  ,No,available,6001~1001~Bhavna Shankar~2020-04-10 10:00:00~2020-04-13 11:00:00|6002~1002~Dayamai Bakshi~2021-07-08 11:00:00~2021-07-12 10:00:00
+2,101,KOCHI MAIN HOSPITAL,102,GENERAL,No, available ,
+3,101,kochi main hospital,ICU-01,icu,Yes,occupied,6003~1003~Januja Shenoy~2026-10-08 09:00:00~
+4,101, Kochi Main Hospital ,103, general ,No,available,
+5,102,Ernakulam City Branch,101,private,No,available,6004~1011~Jairaj Shan~2022-05-10 10:00:00~2022-05-13 11:00:00|6005~1012~Zayan Ratti~2023-08-08 11:00:00~2023-08-12 10:00:00
+6,102,Ernakulam City Branch,102,general,No,  available  ,
+7,102,Ernakulam City Branch,ICU-01,icu,Yes,OCCUPIED,6006~1013~Yachana Srinivas~2026-10-09 09:00:00~
+8,102,  Ernakulam City Branch  ,103,  general  ,No,available,
+9,103,THRISSUR MEDICAL CENTRE,101,PRIVATE,No, available ,6007~1021~Raksha Varma~2024-06-10 10:00:00~2024-06-13 11:00:00|6008~1022~Sneha Goswami~2026-09-08 11:00:00~2026-09-12 10:00:00
+10,103,thrissur medical centre,102,general,No,available,
+11,103, Thrissur Medical Centre ,ICU-01, icu ,Yes,occupied,6009~1023~Varenya Bhatt~2026-10-10 09:00:00~
+12,103,Thrissur Medical Centre,103,general,No,available,
+13,101,  Kochi Main Hospital  ,201,  private  ,No,available,6010~1031~Omisha Borah~2020-04-10 10:00:00~2020-04-13 11:00:00|6011~1032~Wazir Sama~2021-07-08 11:00:00~2021-07-12 10:00:00
+14,101,KOCHI MAIN HOSPITAL,202,GENERAL,No, available ,
+15,101,kochi main hospital,ICU-02,icu,Yes,occupied,6012~1033~Divya Agarwal~2026-10-08 09:00:00~
+16,101, Kochi Main Hospital ,203, general ,No,available,
+17,102,Ernakulam City Branch,201,private,No,available,6013~1041~Vyanjana Wali~2022-05-10 10:00:00~2022-05-13 11:00:00|6014~1042~Jeet Sharma~2023-08-08 11:00:00~2023-08-12 10:00:00
+18,102,Ernakulam City Branch,202,general,No,  available  ,
+19,102,Ernakulam City Branch,ICU-02,icu,Yes,OCCUPIED,6015~1043~Jyoti Ramesh~2026-10-09 09:00:00~
+20,102,  Ernakulam City Branch  ,203,  general  ,No,available,
+21,103,THRISSUR MEDICAL CENTRE,201,PRIVATE,No, available ,6016~1051~Harish Prashad~2024-06-10 10:00:00~2024-06-13 11:00:00|6017~1052~Samuel Kant~2026-09-08 11:00:00~2026-09-12 10:00:00
+22,103,thrissur medical centre,202,general,No,available,
+23,103, Thrissur Medical Centre ,ICU-02, icu ,Yes,occupied,6018~1053~Akshay Raghavan~2026-10-10 09:00:00~
+24,103,Thrissur Medical Centre,203,general,No,available,
+25,101,  Kochi Main Hospital  ,301,  private  ,No,available,6019~1061~Chanakya Nagar~2020-04-10 10:00:00~2020-04-13 11:00:00|6020~1062~Advaith Raju~2021-07-08 11:00:00~2021-07-12 10:00:00
+26,101,KOCHI MAIN HOSPITAL,302,GENERAL,No, available ,
+27,101,kochi main hospital,ICU-03,icu,Yes,occupied,6021~1063~Fariq Ben~2026-10-08 09:00:00~
+28,101, Kochi Main Hospital ,303, general ,No,available,
+29,102,Ernakulam City Branch,301,private,No,available,6022~1071~Elijah Wali~2022-05-10 10:00:00~2022-05-13 11:00:00|6023~1072~Lavanya Batta~2023-08-08 11:00:00~2023-08-12 10:00:00
+30,102,Ernakulam City Branch,302,general,No,  available  ,
+31,102,Ernakulam City Branch,ICU-03,icu,Yes,OCCUPIED,6024~1073~Eiravati Munshi~2026-10-09 09:00:00~
+32,102,  Ernakulam City Branch  ,303,  general  ,No,available,
+33,103,THRISSUR MEDICAL CENTRE,301,PRIVATE,No, available ,6025~1081~Ranveer Lalla~2024-06-10 10:00:00~2024-06-13 11:00:00|6026~1082~Jason Chaudhuri~2026-09-08 11:00:00~2026-09-12 10:00:00
+34,103,thrissur medical centre,302,general,No,available,
+35,103, Thrissur Medical Centre ,ICU-03, icu ,Yes,occupied,6027~1083~Utkarsh Varkey~2026-10-10 09:00:00~
+36,103,Thrissur Medical Centre,303,general,No,available,
+37,101,  Kochi Main Hospital  ,401,  private  ,No,available,6028~1091~Harita Minhas~2020-04-10 10:00:00~2020-04-13 11:00:00|6029~1092~Harsh Goyal~2021-07-08 11:00:00~2021-07-12 10:00:00
+38,101,KOCHI MAIN HOSPITAL,402,GENERAL,No, available ,
+39,101,kochi main hospital,ICU-04,icu,Yes,occupied,6030~1093~Ayaan Bedi~2026-10-08 09:00:00~
+40,101, Kochi Main Hospital ,403, general ,No,available,
+41,102,Ernakulam City Branch,401,private,No,available,6031~1101~Ishaan Hayre~2022-05-10 10:00:00~2022-05-13 11:00:00|6032~1102~Gaurav Deo~2023-08-08 11:00:00~2023-08-12 10:00:00
+42,102,Ernakulam City Branch,402,general,No,  available  ,
+43,102,Ernakulam City Branch,ICU-04,icu,Yes,OCCUPIED,6033~1103~Indali Shetty~2026-10-09 09:00:00~
+44,102,  Ernakulam City Branch  ,403,  general  ,No,available,
+45,103,THRISSUR MEDICAL CENTRE,401,PRIVATE,No, available ,6034~1111~Ekani Merchant~2024-06-10 10:00:00~2024-06-13 11:00:00|6035~1112~Qarin Bhatia~2026-09-08 11:00:00~2026-09-12 10:00:00
+46,103,thrissur medical centre,402,general,No,available,
+47,103, Thrissur Medical Centre ,ICU-04, icu ,Yes,occupied,6036~1113~Aryan Palan~2026-10-10 09:00:00~
+48,103,Thrissur Medical Centre,403,general,No,available,
+49,101,  Kochi Main Hospital  ,501,  private  ,No,available,6037~1121~Onkar Chahal~2020-04-10 10:00:00~2020-04-13 11:00:00|6038~1122~Bhavika Subramanian~2021-07-08 11:00:00~2021-07-12 10:00:00
+50,101,KOCHI MAIN HOSPITAL,502,GENERAL,No, available ,
+51,101,kochi main hospital,ICU-05,icu,Yes,occupied,6039~1123~Ridhi Saha~2026-10-08 09:00:00~
+52,101, Kochi Main Hospital ,503, general ,No,available,
+53,102,Ernakulam City Branch,501,private,No,available,6040~1131~Darsh Khurana~2022-05-10 10:00:00~2022-05-13 11:00:00|6041~1132~Chatura Balakrishnan~2023-08-08 11:00:00~2023-08-12 10:00:00
+54,102,Ernakulam City Branch,502,general,No,  available  ,
+55,102,Ernakulam City Branch,ICU-05,icu,Yes,OCCUPIED,6042~1133~Lohit Kashyap~2026-10-09 09:00:00~
+56,102,  Ernakulam City Branch  ,503,  general  ,No,available,
+57,103,THRISSUR MEDICAL CENTRE,501,PRIVATE,No, available ,6043~1141~Darika Tailor~2024-06-10 10:00:00~2024-06-13 11:00:00|6044~1142~Parth Pandit~2026-09-08 11:00:00~2026-09-12 10:00:00
+58,103,thrissur medical centre,502,general,No,available,
+59,103, Thrissur Medical Centre ,ICU-05, icu ,Yes,occupied,6045~1143~Niharika Iyengar~2026-10-10 09:00:00~
+60,103,Thrissur Medical Centre,503,general,No,available,
+61,101,  Kochi Main Hospital  ,601,  private  ,No,available,6046~1151~Triya Bhat~2020-04-10 10:00:00~2020-04-13 11:00:00|6047~1152~Gagan Rastogi~2021-07-08 11:00:00~2021-07-12 10:00:00
+62,101,KOCHI MAIN HOSPITAL,602,GENERAL,No, available ,
+63,101,kochi main hospital,ICU-06,icu,Yes,occupied,6048~1153~Kashish Ramachandran~2026-10-08 09:00:00~
+64,101, Kochi Main Hospital ,603, general ,No,available,
+65,102,Ernakulam City Branch,601,private,No,available,6049~1161~Ikshita Solanki~2022-05-10 10:00:00~2022-05-13 11:00:00|6050~1162~Anika Divan~2023-08-08 11:00:00~2023-08-12 10:00:00
+66,102,Ernakulam City Branch,602,general,No,  available  ,
+67,102,Ernakulam City Branch,ICU-06,icu,Yes,OCCUPIED,6051~1163~Hitesh Varty~2026-10-09 09:00:00~
+68,102,  Ernakulam City Branch  ,603,  general  ,No,available,
+69,103,THRISSUR MEDICAL CENTRE,601,PRIVATE,No, available ,6052~1171~Ikshita Arya~2024-06-10 10:00:00~2024-06-13 11:00:00|6053~1172~Meghana Das~2026-09-08 11:00:00~2026-09-12 10:00:00
+70,103,thrissur medical centre,602,general,No,available,
+71,103, Thrissur Medical Centre ,ICU-06, icu ,Yes,occupied,6054~1173~Omya Dara~2026-10-10 09:00:00~
+72,103,Thrissur Medical Centre,603,general,No,available,
+73,101,  Kochi Main Hospital  ,701,  private  ,No,available,6055~1181~Vihaan Mani~2020-04-10 10:00:00~2020-04-13 11:00:00|6056~1182~Qadim Chacko~2021-07-08 11:00:00~2021-07-12 10:00:00
+74,101,KOCHI MAIN HOSPITAL,702,GENERAL,No, available ,
+75,101,kochi main hospital,ICU-07,icu,Yes,occupied,6057~1183~Yahvi Bansal~2026-10-08 09:00:00~
+76,101, Kochi Main Hospital ,703, general ,No,available,
+77,102,Ernakulam City Branch,701,private,No,available,6058~1191~Gagan Dugar~2022-05-10 10:00:00~2022-05-13 11:00:00|6059~1192~Yashica Kala~2023-08-08 11:00:00~2023-08-12 10:00:00
+78,102,Ernakulam City Branch,702,general,No,  available  ,
+79,102,Ernakulam City Branch,ICU-07,icu,Yes,OCCUPIED,6060~1193~Falak Krishna~2026-10-09 09:00:00~
+80,102,  Ernakulam City Branch  ,703,  general  ,No,available,
+81,103,THRISSUR MEDICAL CENTRE,701,PRIVATE,No, available ,6061~1201~Oscar Palla~2024-06-10 10:00:00~2024-06-13 11:00:00|6062~1202~Chaaya Kota~2026-09-08 11:00:00~2026-09-12 10:00:00
+82,103,thrissur medical centre,702,general,No,available,
+83,103, Thrissur Medical Centre ,ICU-07, icu ,Yes,occupied,6063~1203~Kevin Singhal~2026-10-10 09:00:00~
+84,103,Thrissur Medical Centre,703,general,No,available,
+85,101,  Kochi Main Hospital  ,801,  private  ,No,available,6064~1211~Aarini Khalsa~2020-04-10 10:00:00~2020-04-13 11:00:00|6065~1212~Chatura Kadakia~2021-07-08 11:00:00~2021-07-12 10:00:00
+86,101,KOCHI MAIN HOSPITAL,802,GENERAL,No, available ,
+87,101,kochi main hospital,ICU-08,icu,Yes,occupied,6066~1213~Chatura Sundaram~2026-10-08 09:00:00~
+88,101, Kochi Main Hospital ,803, general ,No,available,
+89,102,Ernakulam City Branch,801,private,No,available,6067~1221~Jatin Devan~2022-05-10 10:00:00~2022-05-13 11:00:00|6068~1222~Chatresh Sahni~2023-08-08 11:00:00~2023-08-12 10:00:00
+90,102,Ernakulam City Branch,802,general,No,  available  ,
+91,102,Ernakulam City Branch,ICU-08,icu,Yes,OCCUPIED,6069~1223~Pooja Mammen~2026-10-09 09:00:00~
+92,102,  Ernakulam City Branch  ,803,  general  ,No,available,
+93,103,THRISSUR MEDICAL CENTRE,801,PRIVATE,No, available ,6070~1231~Ekbal Ghose~2024-06-10 10:00:00~2024-06-13 11:00:00|6071~1232~Gaurav Shukla~2026-09-08 11:00:00~2026-09-12 10:00:00
+94,103,thrissur medical centre,802,general,No,available,
+95,103, Thrissur Medical Centre ,ICU-08, icu ,Yes,occupied,6072~1233~Oscar Tripathi~2026-10-10 09:00:00~
+96,103,Thrissur Medical Centre,803,general,No,available,
+97,101,  Kochi Main Hospital  ,901,  private  ,No,available,6073~1241~Sanya Bhavsar~2020-04-10 10:00:00~2020-04-13 11:00:00|6074~1242~Ryan Deshpande~2021-07-08 11:00:00~2021-07-12 10:00:00
+98,101,KOCHI MAIN HOSPITAL,902,GENERAL,No, available ,
+99,101,kochi main hospital,ICU-09,icu,Yes,occupied,6075~1243~Fiyaz Gade~2026-10-08 09:00:00~
+100,101, Kochi Main Hospital ,903, general ,No,available,
+101,102,Ernakulam City Branch,901,private,No,available,6076~1251~Hiral Chanda~2022-05-10 10:00:00~2022-05-13 11:00:00|6077~1252~Andrew Kaur~2023-08-08 11:00:00~2023-08-12 10:00:00
+102,102,Ernakulam City Branch,902,general,No,  available  ,
+103,102,Ernakulam City Branch,ICU-09,icu,Yes,OCCUPIED,6078~1253~Naveen Keer~2026-10-09 09:00:00~
+104,102,  Ernakulam City Branch  ,903,  general  ,No,available,
+105,103,THRISSUR MEDICAL CENTRE,901,PRIVATE,No, available ,6079~1261~Ekavir Patla~2024-06-10 10:00:00~2024-06-13 11:00:00|6080~1262~William Dubey~2026-09-08 11:00:00~2026-09-12 10:00:00
+106,103,thrissur medical centre,902,general,No,available,
+107,103, Thrissur Medical Centre ,ICU-09, icu ,Yes,occupied,6081~1263~Nirja Narayanan~2026-10-10 09:00:00~
+108,103,Thrissur Medical Centre,903,general,No,available,
+109,101,  Kochi Main Hospital  ,1001,  private  ,No,available,6082~1271~Caleb Kaul~2020-04-10 10:00:00~2020-04-13 11:00:00|6083~1272~Upma Chanda~2021-07-08 11:00:00~2021-07-12 10:00:00
+110,101,KOCHI MAIN HOSPITAL,1002,GENERAL,No, available ,
+111,101,kochi main hospital,ICU-10,icu,Yes,occupied,6084~1273~Yauvani Bains~2026-10-08 09:00:00~
+112,101, Kochi Main Hospital ,1003, general ,No,available,
+113,102,Ernakulam City Branch,1001,private,No,available,6085~1281~Advik Mahal~2022-05-10 10:00:00~2022-05-13 11:00:00|6086~1282~Reyansh Sankaran~2023-08-08 11:00:00~2023-08-12 10:00:00
+114,102,Ernakulam City Branch,1002,general,No,  available  ,
+115,102,Ernakulam City Branch,ICU-10,icu,Yes,OCCUPIED,6087~1283~Jagdish Ghosh~2026-10-09 09:00:00~
+116,102,  Ernakulam City Branch  ,1003,  general  ,No,available,
+117,103,THRISSUR MEDICAL CENTRE,1001,PRIVATE,No, available ,6088~1291~Bishakha Hari~2024-06-10 10:00:00~2024-06-13 11:00:00|6089~1292~Chandani Dhillon~2026-09-08 11:00:00~2026-09-12 10:00:00
+118,103,thrissur medical centre,1002,general,No,available,
+119,103, Thrissur Medical Centre ,ICU-10, icu ,Yes,occupied,6090~1293~Ria Sarkar~2026-10-10 09:00:00~
+120,103,Thrissur Medical Centre,1003,general,No,available,

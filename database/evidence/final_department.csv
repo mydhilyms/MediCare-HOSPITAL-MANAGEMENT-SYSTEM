@@ -1,0 +1,7 @@
+department_id,department_name,branch_id,status
+501,Cardiology,101,active
+502,Neurology,101,active
+503,Orthopedics,102,active
+504,General Medicine,102,active
+506,Cardiology,103,active
+505,Pediatrics,103,active

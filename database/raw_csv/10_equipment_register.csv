@@ -1,0 +1,91 @@
+paper_row,equipment_id,branch_id,branch_location,equipment_name,equipment_location,maintenance_date,equipment_status
+1,7101,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+2,7102,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+3,7103,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+4,7104,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+5,7105,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+6,7106,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+7,7107,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+8,7108,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+9,7109,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+10,7110,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+11,7111,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+12,7112,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+13,7113,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+14,7114,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+15,7115,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+16,7116,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+17,7117,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+18,7118,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+19,7119,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+20,7120,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+21,7121,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+22,7122,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+23,7123,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+24,7124,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+25,7125,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+26,7126,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+27,7127,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+28,7128,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+29,7129,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+30,7130,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+31,7131,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+32,7132,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+33,7133,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+34,7134,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+35,7135,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+36,7136,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+37,7137,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+38,7138,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+39,7139,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+40,7140,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+41,7141,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+42,7142,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+43,7143,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+44,7144,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+45,7145,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+46,7146,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+47,7147,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+48,7148,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+49,7149,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+50,7150,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+51,7151,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+52,7152,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+53,7153,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+54,7154,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+55,7155,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+56,7156,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+57,7157,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+58,7158,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+59,7159,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+60,7160,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+61,7161,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+62,7162,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+63,7163,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+64,7164,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+65,7165,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+66,7166,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+67,7167,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+68,7168,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+69,7169,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+70,7170,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+71,7171,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+72,7172,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+73,7173,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+74,7174,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+75,7175,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+76,7176,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+77,7177,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+78,7178,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+79,7179,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+80,7180,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+81,7181,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 
+82,7182,101,  Kochi Main Hospital  ,ECG MONITOR,Cardiology Lab,2020-06-08,available
+83,7183,101,KOCHI MAIN HOSPITAL,ventilator,ICU,2020-07-08, in_use 
+84,7184,101,kochi main hospital, Defibrillator ,Emergency Wing,2021-08-08,maintenance
+85,7185,102, Ernakulam City Branch ,ECG Monitor,Cardiology Lab,2022-06-09,available
+86,7186,102,Ernakulam City Branch,Ventilator,ICU,2023-07-09,in_use
+87,7187,102,Ernakulam City Branch,Defibrillator,Emergency Wing,2023-08-09,  maintenance  
+88,7188,103,Thrissur Medical Centre,  ECG Monitor  ,Cardiology Lab,2024-06-10,AVAILABLE
+89,7189,103,  Thrissur Medical Centre  ,VENTILATOR,ICU,2025-07-10,in_use
+90,7190,103,THRISSUR MEDICAL CENTRE,defibrillator,Emergency Wing,2026-08-10, maintenance 

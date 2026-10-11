@@ -1,0 +1,91 @@
+equipment_id,branch_id,name,location,maintenance_date,status
+7101,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7102,101,Ventilator,Icu,2020-07-08,in_use
+7103,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7104,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7105,102,Ventilator,Icu,2023-07-09,in_use
+7106,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7107,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7108,103,Ventilator,Icu,2025-07-10,in_use
+7109,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7110,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7111,101,Ventilator,Icu,2020-07-08,in_use
+7112,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7113,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7114,102,Ventilator,Icu,2023-07-09,in_use
+7115,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7116,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7117,103,Ventilator,Icu,2025-07-10,in_use
+7118,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7119,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7120,101,Ventilator,Icu,2020-07-08,in_use
+7121,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7122,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7123,102,Ventilator,Icu,2023-07-09,in_use
+7124,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7125,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7126,103,Ventilator,Icu,2025-07-10,in_use
+7127,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7128,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7129,101,Ventilator,Icu,2020-07-08,in_use
+7130,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7131,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7132,102,Ventilator,Icu,2023-07-09,in_use
+7133,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7134,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7135,103,Ventilator,Icu,2025-07-10,in_use
+7136,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7137,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7138,101,Ventilator,Icu,2020-07-08,in_use
+7139,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7140,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7141,102,Ventilator,Icu,2023-07-09,in_use
+7142,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7143,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7144,103,Ventilator,Icu,2025-07-10,in_use
+7145,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7146,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7147,101,Ventilator,Icu,2020-07-08,in_use
+7148,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7149,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7150,102,Ventilator,Icu,2023-07-09,in_use
+7151,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7152,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7153,103,Ventilator,Icu,2025-07-10,in_use
+7154,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7155,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7156,101,Ventilator,Icu,2020-07-08,in_use
+7157,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7158,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7159,102,Ventilator,Icu,2023-07-09,in_use
+7160,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7161,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7162,103,Ventilator,Icu,2025-07-10,in_use
+7163,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7164,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7165,101,Ventilator,Icu,2020-07-08,in_use
+7166,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7167,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7168,102,Ventilator,Icu,2023-07-09,in_use
+7169,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7170,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7171,103,Ventilator,Icu,2025-07-10,in_use
+7172,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7173,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7174,101,Ventilator,Icu,2020-07-08,in_use
+7175,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7176,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7177,102,Ventilator,Icu,2023-07-09,in_use
+7178,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7179,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7180,103,Ventilator,Icu,2025-07-10,in_use
+7181,103,Defibrillator,Emergency Wing,2026-08-10,maintenance
+7182,101,Ecg Monitor,Cardiology Lab,2020-06-08,available
+7183,101,Ventilator,Icu,2020-07-08,in_use
+7184,101,Defibrillator,Emergency Wing,2021-08-08,maintenance
+7185,102,Ecg Monitor,Cardiology Lab,2022-06-09,available
+7186,102,Ventilator,Icu,2023-07-09,in_use
+7187,102,Defibrillator,Emergency Wing,2023-08-09,maintenance
+7188,103,Ecg Monitor,Cardiology Lab,2024-06-10,available
+7189,103,Ventilator,Icu,2025-07-10,in_use
+7190,103,Defibrillator,Emergency Wing,2026-08-10,maintenance

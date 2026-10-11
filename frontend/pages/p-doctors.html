@@ -1,0 +1,28 @@
+<div class="page" id="page-doctors">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Doctor Management</h1>
+      <p class="page-subtitle">Manage medical staff profiles and availability</p>
+    </div>
+    <button class="btn btn-primary" onclick="document.getElementById('doctor-form-title').textContent='Add New Doctor';openModal('modal-doctor-form')">
+      <i class="fas fa-user-plus"></i> Add Doctor
+    </button>
+  </div>
+
+  <div class="filter-bar mb-6">
+    <div class="search-bar" style="max-width:320px">
+      <i class="fas fa-search"></i>
+      <input type="search" id="doctor-search" placeholder="Search by name or department…" />
+    </div>
+    <select class="form-control" style="width:auto;padding:.6rem 2.2rem .6rem .9rem">
+      <option>All Departments</option>
+      <option>Cardiology</option><option>Neurology</option><option>Endocrinology</option>
+      <option>Nephrology</option><option>Orthopedics</option><option>Pulmonology</option>
+    </select>
+    <select class="form-control" style="width:auto;padding:.6rem 2.2rem .6rem .9rem">
+      <option>All Status</option><option>Available</option><option>Busy</option><option>Off Duty</option>
+    </select>
+  </div>
+
+  <div class="grid grid-4 gap-6" id="doctors-grid"></div>
+</div>

@@ -1,0 +1,61 @@
+staff_id,role,name,shift,branch_id
+401,Receptionist,Krishna Mohan,Morning,101
+402,Lab Technician,Madhavi Dixit,Evening,101
+403,Pharmacist,Atharv Uppal,Morning,102
+404,Billing Clerk,Falak Mitter,Evening,102
+405,Ward Assistant,Gayathri Shanker,Morning,103
+406,Administrator,Ekaraj Rastogi,Evening,103
+407,Receptionist,Garima Brar,Morning,101
+408,Lab Technician,Abhimanyu Ratti,Evening,101
+409,Pharmacist,Harrison Ghosh,Morning,102
+410,Billing Clerk,Vrinda Pingle,Evening,102
+411,Ward Assistant,Sai Luthra,Morning,103
+412,Administrator,Irya Ray,Evening,103
+413,Receptionist,Ikbal Suri,Morning,101
+414,Lab Technician,Matthew Kala,Evening,101
+415,Pharmacist,Chavvi Dubey,Morning,102
+416,Billing Clerk,Rushil Subramanian,Evening,102
+417,Ward Assistant,Dalaja Suri,Morning,103
+418,Administrator,Imaran Nath,Evening,103
+419,Receptionist,Xavier Soman,Morning,101
+420,Lab Technician,Hritik Randhawa,Evening,101
+421,Pharmacist,Reyansh Sama,Morning,102
+422,Billing Clerk,Pranav Bobal,Evening,102
+423,Ward Assistant,Widisha Singh,Morning,103
+424,Administrator,Warda Rai,Evening,103
+425,Receptionist,Qabil Srinivasan,Morning,101
+426,Lab Technician,Bimala Ramaswamy,Evening,101
+427,Pharmacist,Inaya Ravi,Morning,102
+428,Billing Clerk,Azaan Kumar,Evening,102
+429,Ward Assistant,Thomas Barad,Morning,103
+430,Administrator,Vedika Mann,Evening,103
+431,Receptionist,Chaitanya Kakar,Morning,101
+432,Lab Technician,Mohini Swamy,Evening,101
+433,Pharmacist,Vrishti Borde,Morning,102
+434,Billing Clerk,Zarna Narang,Evening,102
+435,Ward Assistant,Wishi Lata,Morning,103
+436,Administrator,Yadavi Tara,Evening,103
+437,Receptionist,Harish Prasad,Morning,101
+438,Lab Technician,Parth Palla,Evening,101
+439,Pharmacist,Mohini Iyengar,Morning,102
+440,Billing Clerk,Yahvi Kurian,Evening,102
+441,Ward Assistant,Aarush Barman,Morning,103
+442,Administrator,Nikita Sathe,Evening,103
+443,Receptionist,Bhavani Sangha,Morning,101
+444,Lab Technician,Hemal Sawhney,Evening,101
+445,Pharmacist,Jack Wable,Morning,102
+446,Billing Clerk,Jagrati Ray,Evening,102
+447,Ward Assistant,Jasmit Jani,Morning,103
+448,Administrator,Ayushman Kuruvilla,Evening,103
+449,Receptionist,Tanveer Barad,Morning,101
+450,Lab Technician,Kala Rajagopalan,Evening,101
+451,Pharmacist,Ucchal Bora,Morning,102
+452,Billing Clerk,Caleb Loke,Evening,102
+453,Ward Assistant,Vrinda Nanda,Morning,103
+454,Administrator,Nilima Doshi,Evening,103
+455,Receptionist,Tristan Kuruvilla,Morning,101
+456,Lab Technician,Jacob Korpal,Evening,101
+457,Pharmacist,Chameli Kulkarni,Morning,102
+458,Billing Clerk,Maya Panchal,Evening,102
+459,Ward Assistant,Tanveer Kara,Morning,103
+460,Administrator,Qabil Pathak,Evening,103

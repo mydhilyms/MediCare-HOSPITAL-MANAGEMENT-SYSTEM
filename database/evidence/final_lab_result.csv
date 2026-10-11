@@ -1,0 +1,151 @@
+lab_result_id,patient_id,test_type,order_date,result_date,result_details
+5001,1001,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5002,1003,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5003,1011,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5004,1013,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5005,1021,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5006,1023,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5007,1017,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5008,1007,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5009,1001,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5010,1019,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5011,1020,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5012,1029,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5013,1002,X-Ray,2026-11-11,,
+5014,1003,Lipid Profile,2026-11-12,,
+5015,1001,Blood Glucose,2026-11-13,,
+5016,1031,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5017,1033,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5018,1041,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5019,1043,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5020,1051,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5021,1053,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5022,1047,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5023,1037,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5024,1031,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5025,1049,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5026,1050,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5027,1059,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5028,1032,X-Ray,2026-11-11,,
+5029,1033,Lipid Profile,2026-11-12,,
+5030,1031,Blood Glucose,2026-11-13,,
+5031,1061,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5032,1063,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5033,1071,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5034,1073,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5035,1081,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5036,1083,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5037,1077,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5038,1067,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5039,1061,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5040,1079,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5041,1080,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5042,1089,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5043,1062,X-Ray,2026-11-11,,
+5044,1063,Lipid Profile,2026-11-12,,
+5045,1061,Blood Glucose,2026-11-13,,
+5046,1091,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5047,1093,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5048,1101,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5049,1103,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5050,1111,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5051,1113,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5052,1107,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5053,1097,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5054,1091,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5055,1109,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5056,1110,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5057,1119,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5058,1092,X-Ray,2026-11-11,,
+5059,1093,Lipid Profile,2026-11-12,,
+5060,1091,Blood Glucose,2026-11-13,,
+5061,1121,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5062,1123,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5063,1131,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5064,1133,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5065,1141,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5066,1143,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5067,1137,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5068,1127,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5069,1121,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5070,1139,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5071,1140,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5072,1149,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5073,1122,X-Ray,2026-11-11,,
+5074,1123,Lipid Profile,2026-11-12,,
+5075,1121,Blood Glucose,2026-11-13,,
+5076,1151,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5077,1153,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5078,1161,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5079,1163,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5080,1171,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5081,1173,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5082,1167,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5083,1157,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5084,1151,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5085,1169,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5086,1170,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5087,1179,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5088,1152,X-Ray,2026-11-11,,
+5089,1153,Lipid Profile,2026-11-12,,
+5090,1151,Blood Glucose,2026-11-13,,
+5091,1181,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5092,1183,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5093,1191,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5094,1193,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5095,1201,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5096,1203,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5097,1197,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5098,1187,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5099,1181,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5100,1199,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5101,1200,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5102,1209,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5103,1182,X-Ray,2026-11-11,,
+5104,1183,Lipid Profile,2026-11-12,,
+5105,1181,Blood Glucose,2026-11-13,,
+5106,1211,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5107,1213,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5108,1221,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5109,1223,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5110,1231,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5111,1233,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5112,1227,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5113,1217,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5114,1211,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5115,1229,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5116,1230,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5117,1239,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5118,1212,X-Ray,2026-11-11,,
+5119,1213,Lipid Profile,2026-11-12,,
+5120,1211,Blood Glucose,2026-11-13,,
+5121,1241,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5122,1243,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5123,1251,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5124,1253,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5125,1261,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5126,1263,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5127,1257,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5128,1247,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5129,1241,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5130,1259,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5131,1260,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5132,1269,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5133,1242,X-Ray,2026-11-11,,
+5134,1243,Lipid Profile,2026-11-12,,
+5135,1241,Blood Glucose,2026-11-13,,
+5136,1271,Cbc,2020-02-10,2020-02-11,Synthetic findings; reviewed
+5137,1273,Ecg,2020-03-11,2020-03-12,Synthetic findings; reviewed
+5138,1281,X-Ray,2021-05-13,2021-05-14,Synthetic findings; reviewed
+5139,1283,Lipid Profile,2021-06-14,2021-06-15,Synthetic findings; reviewed
+5140,1291,Blood Glucose,2022-02-17,2022-02-18,Synthetic findings; reviewed
+5141,1293,Cbc,2022-08-16,2022-08-17,Synthetic findings; reviewed
+5142,1287,Ecg,2023-04-10,2023-04-11,Synthetic findings; reviewed
+5143,1277,X-Ray,2023-05-11,2023-05-12,Synthetic findings; reviewed
+5144,1271,Lipid Profile,2024-07-13,2024-07-14,Synthetic findings; reviewed
+5145,1289,Blood Glucose,2025-02-15,2025-02-16,Synthetic findings; reviewed
+5146,1290,Cbc,2025-08-14,2025-08-15,Synthetic findings; reviewed
+5147,1299,Ecg,2026-05-18,2026-05-19,Synthetic findings; reviewed
+5148,1272,X-Ray,2026-11-11,,
+5149,1273,Lipid Profile,2026-11-12,,
+5150,1271,Blood Glucose,2026-11-13,,

@@ -1,0 +1,91 @@
+ot_schedule_id,ot_id,patient_id,doctor_id,nurse_id,procedure,schedule_start,schedule_end,status
+7001,901,1001,201,301,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7002,901,1007,202,302,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7003,901,1002,201,303,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7004,902,1011,204,304,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7005,902,1020,205,305,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7006,902,1001,204,306,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7007,903,1021,208,307,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7008,903,1029,209,308,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7009,903,1030,208,309,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7010,904,1031,210,310,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7011,904,1037,211,311,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7012,904,1032,210,312,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7013,905,1041,213,313,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7014,905,1050,214,314,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7015,905,1031,213,315,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7016,906,1051,217,316,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7017,906,1059,218,317,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7018,906,1060,217,318,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7019,907,1061,219,319,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7020,907,1067,220,320,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7021,907,1062,219,321,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7022,908,1071,222,322,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7023,908,1080,223,323,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7024,908,1061,222,324,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7025,909,1081,226,325,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7026,909,1089,227,326,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7027,909,1090,226,327,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7028,910,1091,228,328,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7029,910,1097,229,329,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7030,910,1092,228,330,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7031,911,1101,231,331,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7032,911,1110,232,332,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7033,911,1091,231,333,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7034,912,1111,235,334,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7035,912,1119,236,335,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7036,912,1120,235,336,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7037,913,1121,237,337,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7038,913,1127,238,338,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7039,913,1122,237,339,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7040,914,1131,240,340,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7041,914,1140,241,341,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7042,914,1121,240,342,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7043,915,1141,244,343,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7044,915,1149,245,344,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7045,915,1150,244,345,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7046,916,1151,246,346,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7047,916,1157,247,347,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7048,916,1152,246,348,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7049,917,1161,249,349,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7050,917,1170,250,350,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7051,917,1151,249,351,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7052,918,1171,253,352,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7053,918,1179,254,353,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7054,918,1180,253,354,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7055,919,1181,255,355,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7056,919,1187,256,356,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7057,919,1182,255,357,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7058,920,1191,258,358,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7059,920,1200,259,359,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7060,920,1181,258,360,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7061,921,1201,262,361,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7062,921,1209,263,362,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7063,921,1210,262,363,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7064,922,1211,264,364,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7065,922,1217,265,365,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7066,922,1212,264,366,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7067,923,1221,267,367,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7068,923,1230,268,368,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7069,923,1211,267,369,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7070,924,1231,271,370,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7071,924,1239,272,371,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7072,924,1240,271,372,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7073,925,1241,273,373,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7074,925,1247,274,374,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7075,925,1242,273,375,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7076,926,1251,276,376,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7077,926,1260,277,377,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7078,926,1241,276,378,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7079,927,1261,280,379,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7080,927,1269,281,380,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7081,927,1270,280,381,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled
+7082,928,1271,282,382,Cardiac catheterization,2020-02-10 14:00:00,2020-02-10 15:30:00,completed
+7083,928,1277,283,383,Cardiac diagnostic procedure,2023-05-11 14:00:00,2023-05-11 15:30:00,completed
+7084,928,1272,282,384,Cardiac follow-up procedure,2026-11-11 14:00:00,2026-11-11 15:30:00,scheduled
+7085,929,1281,285,385,Arthroscopic procedure,2021-05-13 14:00:00,2021-05-13 15:30:00,completed
+7086,929,1290,286,386,Orthopedic day procedure,2025-08-14 14:00:00,2025-08-14 15:30:00,completed
+7087,929,1271,285,387,Orthopedic follow-up procedure,2026-11-13 14:00:00,2026-11-13 15:30:00,scheduled
+7088,930,1291,289,388,Diagnostic cardiac procedure,2022-02-17 14:00:00,2022-02-17 15:30:00,completed
+7089,930,1299,290,389,Cardiology intervention,2026-05-18 14:00:00,2026-05-18 15:30:00,completed
+7090,930,1300,289,390,Cardiology day procedure,2026-11-15 14:00:00,2026-11-15 15:30:00,scheduled

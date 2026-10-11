@@ -1,0 +1,4 @@
+pay_structure_id,employee_type,base_pay,allowance_rate,status
+9501,doctor,90000.00,0.1500,active
+9502,nurse,48000.00,0.1000,active
+9503,staff,36000.00,0.0800,active

@@ -1,0 +1,50 @@
+<div class="page" id="page-pharmacy">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Pharmacy Management</h1>
+      <p class="page-subtitle">Medicine inventory, stock levels, and supplier information</p>
+    </div>
+    <button class="btn btn-primary" onclick="toast('Opening medicine addition form…','info')">
+      <i class="fas fa-plus"></i> Add Medicine
+    </button>
+  </div>
+
+  <div class="stats-grid mb-6">
+    <div class="stat-card blue"><div class="stat-icon blue"><i class="fas fa-pills"></i></div><div><div class="stat-value">842</div><div class="stat-label">Total Medicines</div></div></div>
+    <div class="stat-card success"><div class="stat-icon success"><i class="fas fa-check-circle"></i></div><div><div class="stat-value">714</div><div class="stat-label">In Stock</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--warning)"><div class="stat-icon" style="background:#FEF3C7;color:var(--warning)"><i class="fas fa-exclamation"></i></div><div><div class="stat-value">96</div><div class="stat-label">Low Stock</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--danger)"><div class="stat-icon" style="background:#FEE2E2;color:var(--danger)"><i class="fas fa-times-circle"></i></div><div><div class="stat-value">32</div><div class="stat-label">Critical / Out</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header flex-wrap gap-3">
+      <span class="card-title">Medicine Inventory</span>
+      <div class="flex gap-3 flex-wrap flex-1 justify-end">
+        <div class="search-bar" style="max-width:280px">
+          <i class="fas fa-search"></i>
+          <input type="search" id="pharmacy-search" placeholder="Search medicines…" />
+        </div>
+        <select class="form-control" style="width:auto;padding:.6rem 2.2rem .6rem .9rem">
+          <option>All Categories</option><option>Antibiotic</option><option>Antidiabetic</option><option>Antihypertensive</option><option>Analgesic</option>
+        </select>
+        <button class="btn btn-outline" onclick="toast('Exporting inventory…','info')"><i class="fas fa-download"></i> Export</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr><th>ID</th><th>Medicine</th><th>Stock</th><th>Expiry</th><th>Supplier</th><th>Price/Unit</th><th>Status</th><th>Actions</th></tr>
+        </thead>
+        <tbody id="pharmacy-tbody"></tbody>
+      </table>
+    </div>
+    <div style="padding:1rem 1.5rem;border-top:1px solid var(--gray-100);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem">
+      <span class="text-sm text-muted">Showing 1–10 of 842 medicines</span>
+      <div class="pagination">
+        <div class="page-btn"><i class="fas fa-chevron-left"></i></div>
+        <div class="page-btn active">1</div><div class="page-btn">2</div><div class="page-btn">3</div>
+        <div class="page-btn"><i class="fas fa-chevron-right"></i></div>
+      </div>
+    </div>
+  </div>
+</div>

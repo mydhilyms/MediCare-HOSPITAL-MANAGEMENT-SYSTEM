@@ -1,0 +1,151 @@
+paper_row,employee_kind,employee_id,employee_name,role,shift_label,branch_id,branch_location,branch_status
+1,  nurse  ,301,VYANJANA DESHMUKH,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+2,NURSE,302,urvashi deep,,Evening,101,kochi main hospital,ACTIVE
+3,nurse,303, Frado Sahni ,,Morning,101, Kochi Main Hospital ,active
+4, nurse ,304,Krisha Atwal,,Morning,102,Ernakulam City Branch, active 
+5,nurse,305,Lopa Borah,,  Evening  ,102,Ernakulam City Branch,active
+6,nurse,306,Idika Pandit,,MORNING,102,Ernakulam City Branch,active
+7,nurse,307,  Eshana Dara  ,,morning,103,  Thrissur Medical Centre  ,active
+8,  nurse  ,308,UNNATI GARDE,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+9,NURSE,309,zinal jhaveri,,Morning,103,thrissur medical centre,ACTIVE
+10,staff,401, Krishna Mohan ,Receptionist,Morning,101, Kochi Main Hospital ,active
+11, staff ,402,Madhavi Dixit,Lab Technician,Evening,101,Kochi Main Hospital, active 
+12,staff,403,Atharv Uppal,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+13,staff,404,Falak Mitter,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+14,staff,405,  Gayathri Shanker  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+15,  staff  ,406,EKARAJ RASTOGI,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+16,  nurse  ,310,POOJA CHAND,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+17,NURSE,311,priya kulkarni,,Evening,101,kochi main hospital,ACTIVE
+18,nurse,312, Manya Loke ,,Morning,101, Kochi Main Hospital ,active
+19, nurse ,313,Aarini Jaggi,,Morning,102,Ernakulam City Branch, active 
+20,nurse,314,Arjun Bhagat,,  Evening  ,102,Ernakulam City Branch,active
+21,nurse,315,Manthan Oza,,MORNING,102,Ernakulam City Branch,active
+22,nurse,316,  Adweta Yadav  ,,morning,103,  Thrissur Medical Centre  ,active
+23,  nurse  ,317,CHAAYA CHAD,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+24,NURSE,318,januja kalita,,Morning,103,thrissur medical centre,ACTIVE
+25,staff,407, Garima Brar ,Receptionist,Morning,101, Kochi Main Hospital ,active
+26, staff ,408,Abhimanyu Ratti,Lab Technician,Evening,101,Kochi Main Hospital, active 
+27,staff,409,Harrison Ghosh,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+28,staff,410,Vrinda Pingle,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+29,staff,411,  Sai Luthra  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+30,  staff  ,412,IRYA RAY,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+31,  nurse  ,319,DAYAMAI SETTY,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+32,NURSE,320,girindra sachar,,Evening,101,kochi main hospital,ACTIVE
+33,nurse,321, Owen Sen ,,Morning,101, Kochi Main Hospital ,active
+34, nurse ,322,Tanveer Shere,,Morning,102,Ernakulam City Branch, active 
+35,nurse,323,Vihaan Prasad,,  Evening  ,102,Ernakulam City Branch,active
+36,nurse,324,Nitesh Bora,,MORNING,102,Ernakulam City Branch,active
+37,nurse,325,  Hiral Pingle  ,,morning,103,  Thrissur Medical Centre  ,active
+38,  nurse  ,326,ABHIRAM BHATTI,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+39,NURSE,327,udant garde,,Morning,103,thrissur medical centre,ACTIVE
+40,staff,413, Ikbal Suri ,Receptionist,Morning,101, Kochi Main Hospital ,active
+41, staff ,414,Matthew Kala,Lab Technician,Evening,101,Kochi Main Hospital, active 
+42,staff,415,Chavvi Dubey,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+43,staff,416,Rushil Subramanian,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+44,staff,417,  Dalaja Suri  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+45,  staff  ,418,IMARAN NATH,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+46,  nurse  ,328,XAVIER DHILLON,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+47,NURSE,329,neelima handa,,Evening,101,kochi main hospital,ACTIVE
+48,nurse,330, Noah Thakkar ,,Morning,101, Kochi Main Hospital ,active
+49, nurse ,331,Charita Warrior,,Morning,102,Ernakulam City Branch, active 
+50,nurse,332,Arjun Solanki,,  Evening  ,102,Ernakulam City Branch,active
+51,nurse,333,Ayushman Rai,,MORNING,102,Ernakulam City Branch,active
+52,nurse,334,  Max Thakkar  ,,morning,103,  Thrissur Medical Centre  ,active
+53,  nurse  ,335,WARHI BUCH,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+54,NURSE,336,aahana kunda,,Morning,103,thrissur medical centre,ACTIVE
+55,staff,419, Xavier Soman ,Receptionist,Morning,101, Kochi Main Hospital ,active
+56, staff ,420,Hritik Randhawa,Lab Technician,Evening,101,Kochi Main Hospital, active 
+57,staff,421,Reyansh Sama,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+58,staff,422,Pranav Bobal,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+59,staff,423,  Widisha Singh  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+60,  staff  ,424,WARDA RAI,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+61,  nurse  ,337,GABRIEL KALA,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+62,NURSE,338,isha gulati,,Evening,101,kochi main hospital,ACTIVE
+63,nurse,339, Aachal Sabharwal ,,Morning,101, Kochi Main Hospital ,active
+64, nurse ,340,Shaurya Subramanian,,Morning,102,Ernakulam City Branch, active 
+65,nurse,341,Libni Gade,,  Evening  ,102,Ernakulam City Branch,active
+66,nurse,342,Adya Sankaran,,MORNING,102,Ernakulam City Branch,active
+67,nurse,343,  Rishi Sehgal  ,,morning,103,  Thrissur Medical Centre  ,active
+68,  nurse  ,344,WAKEETA CHOKSHI,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+69,NURSE,345,rohan bhardwaj,,Morning,103,thrissur medical centre,ACTIVE
+70,staff,425, Qabil Srinivasan ,Receptionist,Morning,101, Kochi Main Hospital ,active
+71, staff ,426,Bimala Ramaswamy,Lab Technician,Evening,101,Kochi Main Hospital, active 
+72,staff,427,Inaya Ravi,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+73,staff,428,Azaan Kumar,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+74,staff,429,  Thomas Barad  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+75,  staff  ,430,VEDIKA MANN,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+76,  nurse  ,346,JASON CHAND,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+77,NURSE,347,kashish date,,Evening,101,kochi main hospital,ACTIVE
+78,nurse,348, Damyanti Garde ,,Morning,101, Kochi Main Hospital ,active
+79, nurse ,349,Charan Patel,,Morning,102,Ernakulam City Branch, active 
+80,nurse,350,Garima Kara,,  Evening  ,102,Ernakulam City Branch,active
+81,nurse,351,Onveer Murty,,MORNING,102,Ernakulam City Branch,active
+82,nurse,352,  Ishwar Savant  ,,morning,103,  Thrissur Medical Centre  ,active
+83,  nurse  ,353,DAYITA MALL,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+84,NURSE,354,ranbir luthra,,Morning,103,thrissur medical centre,ACTIVE
+85,staff,431, Chaitanya Kakar ,Receptionist,Morning,101, Kochi Main Hospital ,active
+86, staff ,432,Mohini Swamy,Lab Technician,Evening,101,Kochi Main Hospital, active 
+87,staff,433,Vrishti Borde,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+88,staff,434,Zarna Narang,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+89,staff,435,  Wishi Lata  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+90,  staff  ,436,YADAVI TARA,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+91,  nurse  ,355,TURVI CHAHAL,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+92,NURSE,356,nathaniel gopal,,Evening,101,kochi main hospital,ACTIVE
+93,nurse,357, Kiaan Tata ,,Morning,101, Kochi Main Hospital ,active
+94, nurse ,358,Indira Yohannan,,Morning,102,Ernakulam City Branch, active 
+95,nurse,359,Qarin Contractor,,  Evening  ,102,Ernakulam City Branch,active
+96,nurse,360,Yamini Mand,,MORNING,102,Ernakulam City Branch,active
+97,nurse,361,  Upkaar Amble  ,,morning,103,  Thrissur Medical Centre  ,active
+98,  nurse  ,362,URVI RAMA,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+99,NURSE,363,xiti jaggi,,Morning,103,thrissur medical centre,ACTIVE
+100,staff,437, Harish Prasad ,Receptionist,Morning,101, Kochi Main Hospital ,active
+101, staff ,438,Parth Palla,Lab Technician,Evening,101,Kochi Main Hospital, active 
+102,staff,439,Mohini Iyengar,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+103,staff,440,Yahvi Kurian,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+104,staff,441,  Aarush Barman  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+105,  staff  ,442,NIKITA SATHE,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+106,  nurse  ,364,ANMOL SAHA,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+107,NURSE,365,niharika parsa,,Evening,101,kochi main hospital,ACTIVE
+108,nurse,366, Udarsh Viswanathan ,,Morning,101, Kochi Main Hospital ,active
+109, nurse ,367,Meera Ganesan,,Morning,102,Ernakulam City Branch, active 
+110,nurse,368,Anthony Palla,,  Evening  ,102,Ernakulam City Branch,active
+111,nurse,369,Arjun Saini,,MORNING,102,Ernakulam City Branch,active
+112,nurse,370,  Jyoti Kashyap  ,,morning,103,  Thrissur Medical Centre  ,active
+113,  nurse  ,371,MAHIKA MANI,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+114,NURSE,372,sathvik bala,,Morning,103,thrissur medical centre,ACTIVE
+115,staff,443, Bhavani Sangha ,Receptionist,Morning,101, Kochi Main Hospital ,active
+116, staff ,444,Hemal Sawhney,Lab Technician,Evening,101,Kochi Main Hospital, active 
+117,staff,445,Jack Wable,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+118,staff,446,Jagrati Ray,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+119,staff,447,  Jasmit Jani  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+120,  staff  ,448,AYUSHMAN KURUVILLA,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+121,  nurse  ,373,INDRAJIT AHLUWALIA,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+122,NURSE,374,gautami kalla,,Evening,101,kochi main hospital,ACTIVE
+123,nurse,375, Omya Sachdeva ,,Morning,101, Kochi Main Hospital ,active
+124, nurse ,376,Yagnesh Mutti,,Morning,102,Ernakulam City Branch, active 
+125,nurse,377,Chakradev Madan,,  Evening  ,102,Ernakulam City Branch,active
+126,nurse,378,Sneha Solanki,,MORNING,102,Ernakulam City Branch,active
+127,nurse,379,  Yahvi Mistry  ,,morning,103,  Thrissur Medical Centre  ,active
+128,  nurse  ,380,BHAVIKA BUCH,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+129,NURSE,381,yadavi roy,,Morning,103,thrissur medical centre,ACTIVE
+130,staff,449, Tanveer Barad ,Receptionist,Morning,101, Kochi Main Hospital ,active
+131, staff ,450,Kala Rajagopalan,Lab Technician,Evening,101,Kochi Main Hospital, active 
+132,staff,451,Ucchal Bora,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+133,staff,452,Caleb Loke,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+134,staff,453,  Vrinda Nanda  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+135,  staff  ,454,NILIMA DOSHI,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+136,  nurse  ,382,VASATIKA BIR,, Morning ,101,KOCHI MAIN HOSPITAL,  active  
+137,NURSE,383,anusha pall,,Evening,101,kochi main hospital,ACTIVE
+138,nurse,384, Nikita Thaker ,,Morning,101, Kochi Main Hospital ,active
+139, nurse ,385,Onkar Pathak,,Morning,102,Ernakulam City Branch, active 
+140,nurse,386,Dakshesh Shenoy,,  Evening  ,102,Ernakulam City Branch,active
+141,nurse,387,Advik Ahuja,,MORNING,102,Ernakulam City Branch,active
+142,nurse,388,  Omkaar Grewal  ,,morning,103,  Thrissur Medical Centre  ,active
+143,  nurse  ,389,RAGHAV CHAUDHURI,, Evening ,103,THRISSUR MEDICAL CENTRE,  active  
+144,NURSE,390,chaman mall,,Morning,103,thrissur medical centre,ACTIVE
+145,staff,455, Tristan Kuruvilla ,Receptionist,Morning,101, Kochi Main Hospital ,active
+146, staff ,456,Jacob Korpal,Lab Technician,Evening,101,Kochi Main Hospital, active 
+147,staff,457,Chameli Kulkarni,Pharmacist,  Morning  ,102,Ernakulam City Branch,active
+148,staff,458,Maya Panchal,Billing Clerk,EVENING,102,Ernakulam City Branch,active
+149,staff,459,  Tanveer Kara  ,Ward Assistant,morning,103,  Thrissur Medical Centre  ,active
+150,  staff  ,460,QABIL PATHAK,Administrator, Evening ,103,THRISSUR MEDICAL CENTRE,  active  

@@ -1,0 +1,58 @@
+<div class="page" id="page-patients">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Patient Management</h1>
+      <p class="page-subtitle">Manage and track all registered patients</p>
+    </div>
+    <button class="btn btn-primary" onclick="document.getElementById('patient-form-title').textContent='Add New Patient';openModal('modal-patient-form')">
+      <i class="fas fa-user-plus"></i> Add Patient
+    </button>
+  </div>
+
+  <!-- Quick stats -->
+  <div class="stats-grid mb-6">
+    <div class="stat-card blue"><div class="stat-icon blue"><i class="fas fa-users"></i></div><div><div class="stat-value">2,847</div><div class="stat-label">Total Patients</div></div></div>
+    <div class="stat-card success"><div class="stat-icon success"><i class="fas fa-heartbeat"></i></div><div><div class="stat-value">1,492</div><div class="stat-label">Active</div></div></div>
+    <div class="stat-card purple"><div class="stat-icon purple"><i class="fas fa-check-circle"></i></div><div><div class="stat-value">1,203</div><div class="stat-label">Recovered</div></div></div>
+    <div class="stat-card" style="border-left:4px solid var(--danger)"><div class="stat-icon" style="background:#FEE2E2;color:var(--danger)"><i class="fas fa-exclamation-triangle"></i></div><div><div class="stat-value">152</div><div class="stat-label">Critical</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header flex-wrap gap-3">
+      <span class="card-title">All Patients</span>
+      <div class="flex gap-3 flex-wrap flex-1 justify-end">
+        <div class="search-bar" style="max-width:280px">
+          <i class="fas fa-search"></i>
+          <input type="search" id="patient-search" placeholder="Search patients…" />
+        </div>
+        <select class="form-control" style="width:auto;padding:.6rem 2.2rem .6rem .9rem">
+          <option>All Status</option><option>Active</option><option>Recovered</option><option>Critical</option>
+        </select>
+        <button class="btn btn-outline" onclick="toast('Exporting patient data…','info')"><i class="fas fa-download"></i> Export</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Patient ID</th><th>Name</th><th>Age</th><th>Gender</th>
+            <th>Contact</th><th>Disease</th><th>Status</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="patients-tbody"></tbody>
+      </table>
+    </div>
+    <div style="padding:1rem 1.5rem;border-top:1px solid var(--gray-100);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem">
+      <span class="text-sm text-muted">Showing 1–12 of 2,847 patients</span>
+      <div class="pagination">
+        <div class="page-btn"><i class="fas fa-chevron-left"></i></div>
+        <div class="page-btn active">1</div>
+        <div class="page-btn" onclick="toast('Loading page 2…','info')">2</div>
+        <div class="page-btn" onclick="toast('Loading page 3…','info')">3</div>
+        <span style="color:var(--gray-400);padding:0 .3rem">…</span>
+        <div class="page-btn" onclick="toast('Loading last page…','info')">24</div>
+        <div class="page-btn"><i class="fas fa-chevron-right"></i></div>
+      </div>
+    </div>
+  </div>
+</div>

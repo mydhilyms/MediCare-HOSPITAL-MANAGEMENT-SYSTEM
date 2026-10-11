@@ -1,0 +1,4 @@
+paper_row,pharmacy_id,branch_id,branch_location,stock_items
+1,701,101,  Kochi Main Hospital  ,801~Paracetamol 500mg~8~6.50~20|802~Amlodipine 5mg~65~8.25~25|803~Amoxicillin 250mg~75~10.00~20|804~Metformin 500mg~85~11.75~25|805~Atorvastatin 10mg~95~13.50~20|806~Omeprazole 20mg~8~15.25~25|807~Cetirizine 10mg~115~17.00~20|808~Vitamin D3 1000IU~125~18.75~25
+2,702,102,ERNAKULAM CITY BRANCH,805~Atorvastatin 10mg~55~15.50~20|806~Omeprazole 20mg~65~17.25~25|807~Cetirizine 10mg~75~19.00~20|808~Vitamin D3 1000IU~85~20.75~25|809~Ibuprofen 200mg~8~22.50~20|810~Losartan 50mg~105~24.25~25|811~Salbutamol 2mg~115~26.00~20|812~Aspirin 75mg~125~27.75~25
+3,703,103,thrissur medical centre,801~Paracetamol 500mg~55~10.50~20|802~Amlodipine 5mg~65~12.25~25|803~Amoxicillin 250mg~75~14.00~20|804~Metformin 500mg~8~15.75~25|809~Ibuprofen 200mg~95~24.50~20|810~Losartan 50mg~105~26.25~25|811~Salbutamol 2mg~115~28.00~20|812~Aspirin 75mg~125~29.75~25

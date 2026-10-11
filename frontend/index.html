@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MediCare HMS — Sign in</title>
+<link rel="stylesheet" href="css/styles.css" />
+<style>
+  :root {color-scheme:dark;--gray-900:#efeff4;--gray-800:#d4d5de;--gray-700:#bbbdc6;--gray-600:#afb1ba;--gray-500:#999ba5;--gray-400:#888a96;--gray-200:#393942;--gray-50:#18191d;--primary:#ae96f5;--danger:#f397a7;}
+  * {box-sizing:border-box} body{margin:0;background:#09090b;color:#f2f2f4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+  .login-page{display:grid;grid-template-columns:minmax(0,1fr) 465px;min-height:100vh;overflow:hidden}
+  .login-left{background:#101114;border-right:1px solid #27282e;padding:44px 52px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+  .login-brand{display:flex;align-items:center;gap:11px;font-size:15px;font-weight:700;letter-spacing:-.4px}
+  .brand-mark,.login-logo-icon{width:30px;height:30px;background:#292430;border:1px solid #484052;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;color:#c6b3f3;font-size:15px}
+  .left-heading{max-width:540px;font-size:clamp(32px,3.6vw,54px);letter-spacing:-2.3px;line-height:1.12;font-weight:680;margin:0 0 18px}
+  .left-tagline{font-size:12px;line-height:1.8;color:#9799a5;max-width:420px}
+  .mini-visual{margin-top:38px;max-width:550px;aspect-ratio:2.25/1;background:#17181c;border:1px solid #303137;border-radius:7px;padding:20px 18px;display:flex;flex-direction:column;gap:17px}
+  .visual-title{font-size:11px;color:#d2d2dc;font-weight:600;display:flex;justify-content:space-between}.visual-title span{color:#898a97;font-weight:400}
+  .visual-bars{display:flex;align-items:end;gap:7px;flex:1;border-bottom:1px solid #444351;background:repeating-linear-gradient(to top, transparent 0px,transparent calc(25% - 1px),#303139 calc(25% - 1px),#303139 25%)}
+  .visual-bars span{flex:1;max-width:35px;min-width:4px;background:linear-gradient(180deg,rgba(179,146,248,.86),rgba(127,99,187,.2));height:var(--h);border-radius:3px 3px 0 0}
+  .login-caption{font-size:10px;color:#777984}
+  .login-right{display:flex;align-items:center;justify-content:center;padding:34px;background:#09090b;border-radius:0;min-width:0}
+  .login-form-inner{width:100%;max-width:340px;border-radius:6px}
+  .login-logo{display:flex;gap:10px;align-items:center;margin-bottom:37px}
+  .login-logo-text .name{font-size:14px;font-weight:700;color:#f3f3f6}.login-logo-text .sub{font-size:10px;color:#8d909b;margin-top:4px}
+  .login-title{font-size:23px;font-weight:650;letter-spacing:-.65px;margin:0}.login-subtitle{font-size:12px;color:#9698a3;margin:8px 0 27px}
+  .form-float{position:relative;margin:0 0 19px;padding-top:18px}
+  .form-float label{position:absolute;top:0;left:0;color:#b0b1bb;font-size:11px;font-weight:570}
+  .form-float .fi{display:none}
+  .form-float input{width:100%;height:42px;border:1px solid #383941;border-radius:5px;background:#17181c;color:#f1f1f3;padding:9px 38px 9px 11px;font-size:12px;outline:none}
+  .form-float input:focus{border-color:#b49af7;box-shadow:0 0 0 2px #b49af71d}
+  .form-float input.error{border-color:#d68e9d}
+  .field-error{color:#f5a0ad;font-size:10px;margin-top:7px;display:none}
+  .pass-toggle{position:absolute;right:12px;bottom:14px;font-size:12px;color:#9899a3;cursor:pointer}
+  .remember-row{display:flex;align-items:center;justify-content:flex-start;margin:4px 0 22px}.checkbox-label{display:flex;align-items:center;gap:8px;font-size:11px;color:#a8a9b5}.checkbox-label input{accent-color:#ab90ef}
+  .login-btn{width:100%;min-height:42px;background:#beaaf9;color:#181520;border:1px solid #beaaf9;border-radius:5px;font-size:12px;font-weight:650;cursor:pointer;transition:background .2s}
+  .login-btn:hover{background:#d0bffc}.login-btn:disabled{opacity:.65;cursor:wait}
+  .demo-box{margin-top:25px;padding:12px 13px;border:1px solid #373840;background:#18191c;border-radius:6px;color:#8c8e9a;font-size:10px;line-height:1.8}
+  .demo-box strong{display:block;color:#d3d4dc;font-size:11px;margin-bottom:3px}.demo-box code{font-family:ui-monospace,monospace;color:#cbbafa}
+  #login-loading{display:none;position:fixed;inset:0;background:#09090bed;z-index:999;align-items:center;justify-content:center;flex-direction:column;gap:14px}
+  #login-loading.active{display:flex}.loading-text{font-size:13px;color:#e7e7ec}.loading-sub{font-size:11px;color:#999ba8}.loading-logo{color:#c8b3fa}
+  #toast-container{position:fixed;right:20px;top:20px;z-index:1000}.toast{margin-bottom:8px;padding:12px 15px;background:#202027;border:1px solid #3d3d4d;border-radius:6px;color:#eee;display:flex;gap:10px;align-items:center;font-size:12px}.toast-close{margin-left:12px;cursor:pointer}
+  @media(max-width:960px){.login-page{grid-template-columns:1fr}.login-left{display:none}.login-right{min-height:100vh;padding:24px}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="login-loading"><div class="loading-logo">▦</div><div class="loading-text">Signing in…</div><div class="loading-sub">Checking credentials</div><div class="spinner"></div></div>
+<div id="toast-container" aria-live="polite"></div>
+<div class="login-page">
+  <section class="login-left" aria-label="Hospital management workspace">
+    <div class="login-brand"><span class="brand-mark">✣</span> MediCare <span style="font-size:10px;font-weight:400;color:#777984">/ HMS</span></div>
+    <div><h2 class="left-heading">Clinical operations.<br/>One workspace.</h2><p class="left-tagline">Patients, doctors, appointments and financial records in a focused database workspace.</p>
+      <div class="mini-visual" aria-hidden="true"><div class="visual-title">Activity overview <span>Monthly trend · illustrative</span></div><div class="visual-bars">
+        <span style="--h:38%"></span><span style="--h:45%"></span><span style="--h:42%"></span><span style="--h:61%"></span><span style="--h:55%"></span><span style="--h:64%"></span><span style="--h:58%"></span><span style="--h:76%"></span><span style="--h:70%"></span><span style="--h:81%"></span><span style="--h:75%"></span><span style="--h:94%"></span>
+      </div></div>
+    </div>
+    <div class="login-caption">DBMS · PostgreSQL · Secure role-based access</div>
+  </section>
+  <main class="login-right"><div class="login-form-inner">
+    <div class="login-logo"><span class="login-logo-icon">✣</span><div class="login-logo-text"><div class="name">MediCare HMS</div><div class="sub">Hospital management system</div></div></div>
+    <h1 class="login-title">Authorized personnel login</h1><p class="login-subtitle">Sign in with your assigned hospital account.</p>
+    <form id="login-form" novalidate>
+      <div class="form-float"><input type="text" id="email" placeholder="Enter username" autocomplete="username" aria-label="Username" /><label for="email">Username</label><div class="field-error" id="email-error">Please enter your username.</div></div>
+      <div class="form-float"><input type="password" id="password" placeholder="Enter password" autocomplete="current-password" aria-label="Password" /><label for="password">Password</label><span class="pass-toggle" id="toggle-pass" role="button" aria-label="Toggle password visibility" tabindex="0">Show</span><div class="field-error" id="pass-error">Password must be at least six characters.</div></div>
+      <div class="remember-row"><label class="checkbox-label"><input type="checkbox" id="remember-me" checked /> Remember this session</label></div>
+      <button type="submit" class="login-btn" id="login-btn">Sign in →</button>
+    </form>
+    <div class="demo-box"><strong>Coursework demo access</strong> Username <code>admin</code> · password <code>admin123</code>. Change the seeded password before any real deployment.</div>
+  </div></main>
+</div>
+<script>
+  function showToast(msg, type='info') {
+    const icons = { info:'fa-info-circle', success:'fa-check-circle', error:'fa-times-circle', warning:'fa-exclamation-triangle' };
+    const t = document.createElement('div');
+    t.className = `toast ${type}`;
+    t.innerHTML = `<i class="fas ${icons[type]} toast-icon"></i><span>${msg}</span><i class="fas fa-times toast-close" onclick="this.parentElement.remove()"></i>`;
+    document.getElementById('toast-container').appendChild(t);
+    setTimeout(() => t.remove(), 4000);
+  }
+
+  // Password toggle
+  const passInput  = document.getElementById('password');
+  const toggleBtn  = document.getElementById('toggle-pass');
+  toggleBtn.addEventListener('click', () => {
+    passInput.type = passInput.type === 'password' ? 'text' : 'password';
+    toggleBtn.textContent = passInput.type === 'password' ? 'Show' : 'Hide';
+  });
+  toggleBtn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') toggleBtn.click(); });
+
+  // Form submit
+  document.getElementById('login-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const email    = document.getElementById('email');
+    const password = document.getElementById('password');
+    const emailErr = document.getElementById('email-error');
+    const passErr  = document.getElementById('pass-error');
+    let valid = true;
+
+    email.classList.remove('error'); emailErr.style.display = 'none';
+    password.classList.remove('error'); passErr.style.display = 'none';
+
+    const usernameValue = email.value.trim();
+    const username = usernameValue.includes('@') ? usernameValue.split('@')[0] : usernameValue;
+
+    if (!username) {
+      email.classList.add('error'); emailErr.style.display = 'block'; valid = false;
+    }
+    if (!password.value || password.value.length < 6) {
+      password.classList.add('error'); passErr.style.display = 'block'; valid = false;
+    }
+    if (!valid) return;
+
+    const btn = document.getElementById('login-btn');
+    btn.disabled = true;
+    btn.innerHTML = '<div class="spinner" style="width:18px;height:18px;border-color:rgba(255,255,255,.3);border-top-color:#fff"></div> Signing in…';
+    document.getElementById('login-loading').classList.add('active');
+
+    try {
+      const response = await fetch('http://localhost:8000/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password: password.value }),
+      });
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || 'Login failed.');
+      }
+
+      localStorage.setItem('hmsToken', result.token);
+      localStorage.setItem('hmsUser', JSON.stringify(result.user || {}));
+      window.location.href = 'dashboard.html';
+    } catch (error) {
+      showToast(error.message || 'Unable to sign in.', 'error');
+      btn.disabled = false;
+      btn.innerHTML = '<i class="fas fa-sign-in-alt"></i> Sign In';
+      document.getElementById('login-loading').classList.remove('active');
+    }
+  });
+
+  // Clear errors on input
+  ['email','password'].forEach(id => {
+    document.getElementById(id).addEventListener('input', function() {
+      this.classList.remove('error');
+      document.getElementById(id + '-error').style.display = 'none';
+    });
+  });
+</script>
+</body>
+</html>

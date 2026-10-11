@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#041219">
+  <meta name="description" content="MediCare HMS brings patients, people, and hospital operations together in one modern healthcare workspace.">
+  <title>HMS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --abyss: #041219;
+      --deep: #082230;
+      --teal: #2ee6c9;
+      --teal-soft: #7df2de;
+      --amber: #ffb15e;
+      --ivory: #eaf6f4;
+      --muted: #8fb0b6;
+      --line: rgba(160, 235, 225, .13);
+      --glass: rgba(255, 255, 255, .045);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; background: var(--abyss); }
+    body {
+      margin: 0; color: var(--ivory); background: var(--abyss);
+      font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased; overflow-x: hidden;
+    }
+    h1, h2, h3, p, ul { margin: 0; padding: 0; }
+    h1, h2, h3, .brand, .btn { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; cursor: pointer; }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--teal-soft); outline-offset: 4px; border-radius: 8px; }
+    .icon { width: 20px; height: 20px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+    .container { width: min(100% - 48px, 1180px); margin: 0 auto; }
+
+    /* ───────── Hero ───────── */
+    .hero {
+      position: relative; isolation: isolate; overflow: hidden;
+      min-height: 100vh; min-height: 100svh;
+      display: flex; flex-direction: column;
+      background:
+        radial-gradient(ellipse 60% 70% at 74% 48%, #0d3b4a 0%, rgba(9, 44, 58, .6) 38%, transparent 72%),
+        radial-gradient(ellipse 50% 60% at 8% 100%, rgba(255, 177, 94, .07), transparent 70%),
+        linear-gradient(180deg, #05161f 0%, #041219 100%);
+    }
+    #helix { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; display: block; pointer-events: none; }
+    .hero-shade { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(90deg, rgba(3, 10, 16, .92) 0%, rgba(3, 10, 16, .6) 34%, transparent 62%); }
+
+    .site-header { position: relative; z-index: 20; padding: 20px 0 0; }
+    .nav-shell {
+      display: flex; align-items: center; justify-content: space-between; gap: 24px;
+      min-height: 66px; padding: 10px 14px 10px 20px;
+      background: var(--glass); border: 1px solid var(--line); border-radius: 18px;
+      backdrop-filter: blur(18px) saturate(1.3); -webkit-backdrop-filter: blur(18px) saturate(1.3);
+      box-shadow: 0 12px 40px rgba(0, 8, 14, .35), inset 0 1px 0 rgba(255, 255, 255, .06);
+    }
+    .brand { display: inline-flex; align-items: center; gap: 11px; font-size: 19px; font-weight: 800; letter-spacing: -.04em; white-space: nowrap; }
+    .brand-mark {
+      width: 36px; height: 36px; display: grid; place-items: center; border-radius: 11px; color: #05302f;
+      background: linear-gradient(145deg, #8ff7e3, #2ee6c9); box-shadow: 0 0 26px rgba(46, 230, 201, .45);
+    }
+    .brand-mark .icon { width: 21px; height: 21px; stroke-width: 2.2; }
+    .brand small { color: var(--teal-soft); font-weight: 600; font-size: 11px; letter-spacing: .04em; margin-left: 3px; }
+    .nav-links { display: flex; gap: 6px; list-style: none; }
+    .nav-links a { display: block; padding: 10px 16px; border-radius: 10px; color: #b5cdd1; font-size: 14px; font-weight: 500; transition: color .2s, background .2s; }
+    .nav-links a:hover { color: #fff; background: rgba(255, 255, 255, .06); }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      padding: 13px 22px; border-radius: 12px; border: 1px solid transparent;
+      font-size: 14px; font-weight: 700; white-space: nowrap; transition: transform .25s, box-shadow .25s, background .25s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: #04312f; background: linear-gradient(135deg, #9afbe9, #e6f6f3); box-shadow: 0 8px 30px rgba(234, 255, 252, 0.28); }
+    .btn-ghost { color: var(--ivory); border-color: rgba(255, 255, 255, .18); background: rgba(255, 255, 255, .04); }
+    .btn-ghost:hover { background: rgba(255, 255, 255, .1); }
+    .nav-cta { padding: 11px 18px; font-size: 13px; }
+    .menu-toggle { display: none; width: 44px; height: 44px; place-items: center; background: transparent; border: 0; color: #fff; }
+    .menu-toggle .close-icon { display: none; }
+    .menu-toggle[aria-expanded="true"] .menu-icon { display: none; }
+    .menu-toggle[aria-expanded="true"] .close-icon { display: block; }
+    .mobile-menu {
+      display: none; margin-top: 10px; padding: 10px; border-radius: 18px;
+      background: rgba(6, 28, 38, .88); border: 1px solid var(--line);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    }
+    .mobile-menu.open { display: grid; gap: 2px; }
+    .mobile-menu a { padding: 14px 16px; border-radius: 12px; font-weight: 500; color: #cfe3e6; }
+    .mobile-menu a:hover { background: rgba(255, 255, 255, .06); }
+
+    .hero-copy { position: relative; z-index: 10; flex: 1; display: flex; align-items: center; padding: 56px 0 96px; }
+    .hero-copy .container { width: min(100% - 48px, 1180px); }
+    .hero h1 {
+      max-width: 620px; font-size: clamp(42px, 5.6vw, 84px); line-height: 1.02; letter-spacing: -.055em; font-weight: 800;
+      background: linear-gradient(180deg, #ffffff 20%, #b6ece2 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 80px rgba(46, 230, 201, .2);
+    }
+    .hero-sub { max-width: 440px; margin-top: 24px; color: #a9c3c8; font-size: 17px; line-height: 1.75; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px; }
+
+    /* ───────── About ───────── */
+    .about { position: relative; padding: 140px 0; background: linear-gradient(180deg, #041219 0%, #061b25 100%); }
+    .about::before { content: ''; position: absolute; top: 0; left: 50%; width: min(1180px, 100% - 48px); height: 1px; transform: translateX(-50%); background: linear-gradient(90deg, transparent, rgba(46, 230, 201, .5), transparent); }
+    .about-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 80px; align-items: center; }
+    .about h2 { font-size: clamp(32px, 3.8vw, 52px); line-height: 1.1; letter-spacing: -.05em; font-weight: 800; max-width: 520px; }
+    .about-text { margin-top: 24px; max-width: 470px; color: var(--muted); font-size: 17px; line-height: 1.8; }
+    .about-list { list-style: none; border-top: 1px solid var(--line); }
+    .about-list li { display: grid; grid-template-columns: 52px 1fr; gap: 20px; align-items: start; padding: 30px 0; border-bottom: 1px solid var(--line); }
+    .about-ico { width: 52px; height: 52px; display: grid; place-items: center; border-radius: 15px; color: var(--teal-soft); background: rgba(46, 230, 201, .08); border: 1px solid rgba(46, 230, 201, .2); box-shadow: 0 0 30px rgba(46, 230, 201, .08); }
+    .about-ico.warm { color: var(--amber); background: rgba(255, 177, 94, .08); border-color: rgba(255, 177, 94, .22); box-shadow: 0 0 30px rgba(255, 177, 94, .08); }
+    .about-list h3 { font-size: 19px; font-weight: 700; letter-spacing: -.02em; }
+    .about-list p { margin-top: 6px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+
+    /* ───────── Footer ───────── */
+    .footer { padding: 64px 0 36px; background: #030d13; border-top: 1px solid var(--line); }
+    .footer-top { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; }
+    .footer-desc { margin-top: 16px; max-width: 320px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+    .footer-links { display: flex; gap: 32px; flex-wrap: wrap; list-style: none; align-self: flex-start; }
+    .footer-links a { color: #b5cdd1; font-size: 14px; font-weight: 500; transition: color .2s; }
+    .footer-links a:hover { color: var(--teal-soft); }
+    .footer-bottom { margin-top: 52px; padding-top: 24px; border-top: 1px solid var(--line); color: #6d8a91; font-size: 13px; }
+
+    @media (max-width: 900px) {
+      .nav-links, .nav-cta { display: none; }
+      .menu-toggle { display: grid; }
+      .hero-shade { background: linear-gradient(180deg, rgba(4, 18, 25, .55), rgba(4, 18, 25, .25) 40%, rgba(4, 18, 25, .7)); }
+      .hero-copy { align-items: flex-end; padding-bottom: 72px; }
+      .about { padding: 96px 0; }
+      .about-grid { grid-template-columns: 1fr; gap: 56px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/><path d="M3.7 12h4l1.8-3.2 3.1 6.4 1.9-3.2h5.8"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+    <symbol id="i-stetho" viewBox="0 0 24 24"><path d="M6 3v7a5 5 0 0 0 10 0V3M3 3h6M13 3h6M11 15v1a5 5 0 0 0 10 0v-4"/><circle cx="21" cy="10" r="2"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V5M16 20v-8M22 20v-14M2 20h22"/></symbol>
+  </svg>
+
+  <!-- ═════════ HERO ═════════ -->
+  <section class="hero" id="top" aria-labelledby="hero-heading">
+    <canvas id="helix" role="img" aria-label="Four glowing strands of light twisting like a DNA helix"></canvas>
+    <div class="hero-shade" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav-shell" aria-label="Main navigation">
+          <a class="brand" href="#top" aria-label="MediCare HMS, back to top">
+            <!-- <span class="brand-mark"><svg class="icon"><use href="#i-heart"/></svg></span> -->
+            <span>MediCare HMS</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <a class="btn btn-primary nav-cta" href="index.html">Login</a>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+            <svg class="icon menu-icon"><use href="#i-menu"/></svg>
+            <svg class="icon close-icon"><use href="#i-close"/></svg>
+          </button>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="index.html">Get started</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-copy">
+      <div class="container">
+        <h1 id="hero-heading">Smarter hospitals, better care.</h1>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="index.html">Open the portal <svg class="icon" style="width:17px;height:17px"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="#about">About us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═════════ ABOUT ═════════ -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="container about-grid">
+      <div>
+        <h2 id="about-heading">Technology should support care, not slow it down.</h2>
+        <p class="about-text">When information lives in different places, even simple tasks get complicated. MediCare HMS connects the people running a hospital in one clear, calm workspace.</p>
+      </div>
+      <ul class="about-list">
+        <li>
+          <span class="about-ico"><svg class="icon"><use href="#i-stetho"/></svg></span>
+          <div><h3>Clinicians</h3><p>Clearer patient context and fewer administrative handoffs.</p></div>
+        </li>
+        <li>
+          <span class="about-ico warm"><svg class="icon"><use href="#i-calendar"/></svg></span>
+          <div><h3>Front desk</h3><p>Organized check-ins and appointments, all in one place.</p></div>
+        </li>
+        <li>
+          <span class="about-ico"><svg class="icon"><use href="#i-chart"/></svg></span>
+          <div><h3>Administrators</h3><p>A better picture of resources, schedules, and operations.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═════════ FOOTER ═════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="#top">
+            <span class="brand-mark"><svg class="icon"><use href="#i-heart"/></svg></span>
+            <span>MediCare<small>HMS</small></span>
+          </a>
+          <p class="footer-desc">Connected hospital management, designed around people and care.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="index.html">Portal</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">© <span id="year">2026</span> MediCare HMS. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* Mobile menu */
+    var toggle = document.getElementById('menu-toggle'), menu = document.getElementById('mobile-menu');
+    toggle.addEventListener('click', function () {
+      var open = menu.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    menu.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') { menu.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
+    });
+
+    /* ═══════════ GLOWING HELIX — WebGL port of Shadertoy mdKBWd ═══════════
+       Four sine strands (red, green, blue, yellow) with a 0.1/|x| glow falloff.
+       The math is identical to the original mainImage(); u_center only slides
+       the helix to the right so the headline stays readable. */
+    var hero = document.getElementById('top');
+    var canvas = document.getElementById('helix');
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var gl = canvas.getContext('webgl', { antialias: false, alpha: false, powerPreference: 'low-power' });
+    if (!gl) return;
+
+    var vs = 'attribute vec2 a_pos; void main(){ gl_Position = vec4(a_pos, 0.0, 1.0); }';
+    var fs = [
+      'precision highp float;',
+      'uniform vec2 iResolution; uniform float iTime; uniform float u_center;',
+      'void mainImage(out vec4 fragColor, in vec2 fragCoord){',
+      '  vec3 rColor = vec3(0.9, 0.0, 0.3);',
+      '  vec3 gColor = vec3(0.0, 0.9, 0.3);',
+      '  vec3 bColor = vec3(0.0, 0.3, 0.9);',
+      '  vec3 yColor = vec3(0.9, 0.9, 0.3);',
+      '  vec2 p = (fragCoord.xy * 2.0 - iResolution.xy);',
+      '  p /= min(iResolution.x, iResolution.y);',
+      '  p.x -= u_center * iResolution.x / min(iResolution.x, iResolution.y);', // slide helix right (0 = centred)
+      '  float a = sin(p.y * 1.5 - iTime * 0.1) / 1.0;',
+      '  float b = cos(p.y * 1.5 - iTime * 0.2) / 1.0;',
+      '  float c = sin(p.y * 1.5 - iTime * 0.3 + 3.14) / 1.0;',
+      '  float d = cos(p.y * 1.5 - iTime * 0.5 + 3.14) / 1.0;',
+      '  float e = 0.1 / abs(p.x + a);',
+      '  float f = 0.1 / abs(p.x + b);',
+      '  float g = 0.1 / abs(p.x + c);',
+      '  float h = 0.1 / abs(p.x + d);',
+      '  vec3 destColor = rColor * e + gColor * f + bColor * g + yColor * h;',
+      '  destColor = 1.0 - exp(-destColor * 0.8);',   // soft highlight rolloff; delete this line for the raw Shadertoy look
+      '  fragColor = vec4(destColor, 1.0);',
+      '}',
+      'void main(){ vec4 c; mainImage(c, gl_FragCoord.xy); gl_FragColor = c; }'
+    ].join('\n');
+
+    function compile(type, src) {
+      var sh = gl.createShader(type); gl.shaderSource(sh, src); gl.compileShader(sh);
+      if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) { console.warn(gl.getShaderInfoLog(sh)); return null; }
+      return sh;
+    }
+    var v = compile(gl.VERTEX_SHADER, vs), f = compile(gl.FRAGMENT_SHADER, fs);
+    if (!v || !f) return;
+    var prog = gl.createProgram(); gl.attachShader(prog, v); gl.attachShader(prog, f); gl.linkProgram(prog);
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { console.warn(gl.getProgramInfoLog(prog)); return; }
+    gl.useProgram(prog);
+
+    var buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]), gl.STATIC_DRAW);
+    var loc = gl.getAttribLocation(prog, 'a_pos'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    var uRes = gl.getUniformLocation(prog, 'iResolution'), uTime = gl.getUniformLocation(prog, 'iTime'), uCenter = gl.getUniformLocation(prog, 'u_center');
+
+    var W = 0, H = 0;
+    function resize() {
+      var r = hero.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+      W = Math.max(1, Math.round(r.width * dpr)); H = Math.max(1, Math.round(r.height * dpr));
+      canvas.width = W; canvas.height = H; gl.viewport(0, 0, W, H);
+    }
+    var start = performance.now(), raf = 0, visible = true;
+    function draw(now) {
+      var t = reduced.matches ? 40 : (now - start) / 1000 + 40;   // +40s so it never starts at the symmetric t=0 pose
+      var aspect = W / Math.min(W, H);
+      var narrow = hero.clientWidth < 900;
+      gl.uniform2f(uRes, W, H); gl.uniform1f(uTime, t);
+      gl.uniform1f(uCenter, narrow ? .28 : .46);                   // helix centre as a fraction of the shorter side
+      gl.drawArrays(gl.TRIANGLES, 0, 6);
+    }
+    function loop(now) { raf = 0; if (!visible || document.hidden) return; draw(now); if (!reduced.matches) raf = requestAnimationFrame(loop); }
+    function kick() { if (!raf && visible && !document.hidden) raf = requestAnimationFrame(loop); }
+
+    resize(); kick();
+    window.addEventListener('resize', function () { resize(); if (reduced.matches) draw(0); kick(); }, { passive: true });
+    document.addEventListener('visibilitychange', kick);
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (e) { visible = e[0].isIntersecting; if (visible) kick(); }).observe(hero);
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+doctor_id,name,specialization,phone,department_id
+201,Dr. Ekaja Thakkar,Cardiology,+91 9800000038,501
+202,Dr. Udant Salvi,Cardiology,+91 9800000111,501
+203,Dr. Ridhi Khatri,Neurology,+91 9800000184,502
+204,Dr. Faris Choudhry,Orthopedics,+91 9800000257,503
+205,Dr. Guneet Sengupta,Orthopedics,+91 9800000330,503
+206,Dr. Vritti Murthy,General Medicine,+91 9800000403,504
+208,Dr. Ishanvi Puri,Cardiology,+91 9800000549,506
+207,Dr. Mekhala Krishnamurthy,Pediatrics,+91 9800000476,505
+209,Dr. Harini Chakraborty,Cardiology,+91 9800000622,506
+210,Dr. Chakrika Bhatti,Cardiology,+91 9800002553,501
+211,Dr. Oeshi Andra,Cardiology,+91 9800002626,501
+212,Dr. Urmi Palan,Neurology,+91 9800002699,502
+213,Dr. Sai Morar,Orthopedics,+91 9800002772,503
+214,Dr. Timothy Mallick,Orthopedics,+91 9800002845,503
+215,Dr. Zayan Contractor,General Medicine,+91 9800002918,504
+217,Dr. Dhruv Ray,Cardiology,+91 9800003064,506
+216,Dr. Anirudh Dhingra,Pediatrics,+91 9800002991,505
+218,Dr. Qasim Ramaswamy,Cardiology,+91 9800003137,506
+219,Dr. Indali Palla,Cardiology,+91 9800005068,501
+220,Dr. Ekantika Sachdeva,Cardiology,+91 9800005141,501
+221,Dr. Oscar Dubey,Neurology,+91 9800005214,502
+222,Dr. Upadhriti Bandi,Orthopedics,+91 9800005287,503
+223,Dr. Rudra Mukhopadhyay,Orthopedics,+91 9800005360,503
+224,Dr. Maanav Narain,General Medicine,+91 9800005433,504
+226,Dr. Amruta Parmer,Cardiology,+91 9800005579,506
+225,Dr. Nihal Bhat,Pediatrics,+91 9800005506,505
+227,Dr. Maanav Batta,Cardiology,+91 9800005652,506
+228,Dr. Madhavi Basak,Cardiology,+91 9800007512,501
+229,Dr. Yashawini Sehgal,Cardiology,+91 9800007585,501
+230,Dr. Dev Shenoy,Neurology,+91 9800007658,502
+231,Dr. Arin Singhal,Orthopedics,+91 9800007731,503
+232,Dr. Eiravati Dugal,Orthopedics,+91 9800007804,503
+233,Dr. Ekaraj Soman,General Medicine,+91 9800007877,504
+235,Dr. Nitesh Bajaj,Cardiology,+91 9800008023,506
+234,Dr. Maanas Chana,Pediatrics,+91 9800007950,505
+236,Dr. Vivaan Mallick,Cardiology,+91 9800008096,506
+237,Dr. Ayaan Kulkarni,Cardiology,+91 9800010027,501
+238,Dr. Indali Pillai,Cardiology,+91 9800010100,501
+239,Dr. Nakul Bhandari,Neurology,+91 9800010173,502
+240,Dr. Hamsini Dani,Orthopedics,+91 9800010246,503
+241,Dr. Barkha Kannan,Orthopedics,+91 9800010319,503
+242,Dr. Harrison Dua,General Medicine,+91 9800010392,504
+244,Dr. Raghav Mand,Cardiology,+91 9800010538,506
+243,Dr. Kritika Shanker,Pediatrics,+91 9800010465,505
+245,Dr. Nilima Sheth,Cardiology,+91 9800010611,506
+246,Dr. Ishita Nagarajan,Cardiology,+91 9800012542,501
+247,Dr. Balhaar Kohli,Cardiology,+91 9800012615,501
+248,Dr. Hardik Thaman,Neurology,+91 9800012688,502
+249,Dr. Nakul Sachdev,Orthopedics,+91 9800012761,503
+250,Dr. Alexander Sachdev,Orthopedics,+91 9800012834,503
+251,Dr. Jatin Rastogi,General Medicine,+91 9800012907,504
+253,Dr. Nidhi Ratta,Cardiology,+91 9800013053,506
+252,Dr. Ridhi Raman,Pediatrics,+91 9800012980,505
+254,Dr. Sanaya Arya,Cardiology,+91 9800013126,506
+255,Dr. Wazir Taneja,Cardiology,+91 9800015057,501
+256,Dr. Vamakshi Manda,Cardiology,+91 9800015130,501
+257,Dr. Mohammed Swamy,Neurology,+91 9800015203,502
+258,Dr. Daksh Madan,Orthopedics,+91 9800015276,503
+259,Dr. Brijesh Srinivas,Orthopedics,+91 9800015349,503
+260,Dr. Hredhaan Sampath,General Medicine,+91 9800015422,504
+262,Dr. Devansh Chauhan,Cardiology,+91 9800015568,506
+261,Dr. Janya Thakkar,Pediatrics,+91 9800015495,505
+263,Dr. Samaksh Dalal,Cardiology,+91 9800015641,506
+264,Dr. Balhaar Cheema,Cardiology,+91 9800017501,501
+265,Dr. Zehaan Rastogi,Cardiology,+91 9800017574,501
+266,Dr. Chaaya Doctor,Neurology,+91 9800017647,502
+267,Dr. Yadavi Naik,Orthopedics,+91 9800017720,503
+268,Dr. Parth Merchant,Orthopedics,+91 9800017793,503
+269,Dr. Forum Din,General Medicine,+91 9800017866,504
+271,Dr. Krishna Iyengar,Cardiology,+91 9800018012,506
+270,Dr. Devika Dora,Pediatrics,+91 9800017939,505
+272,Dr. Nandini Sheth,Cardiology,+91 9800018085,506
+273,Dr. Ayush Kar,Cardiology,+91 9800020016,501
+274,Dr. Chatresh Om,Cardiology,+91 9800020089,501
+275,Dr. Utkarsh Bandi,Neurology,+91 9800020162,502
+276,Dr. Harita Dasgupta,Orthopedics,+91 9800020235,503
+277,Dr. Rudra Bhalla,Orthopedics,+91 9800020308,503
+278,Dr. Gautam Bhat,General Medicine,+91 9800020381,504
+280,Dr. Darsh Kannan,Cardiology,+91 9800020527,506
+279,Dr. Hamsini Virk,Pediatrics,+91 9800020454,505
+281,Dr. Lekha Saraf,Cardiology,+91 9800020600,506
+282,Dr. Triya Din,Cardiology,+91 9800022531,501
+283,Dr. Yamini Natt,Cardiology,+91 9800022604,501
+284,Dr. Ekantika Sem,Neurology,+91 9800022677,502
+285,Dr. Dipta Karan,Orthopedics,+91 9800022750,503
+286,Dr. Anay Master,Orthopedics,+91 9800022823,503
+287,Dr. Yash Baria,General Medicine,+91 9800022896,504
+289,Dr. Ekbal Chatterjee,Cardiology,+91 9800023042,506
+288,Dr. Lavanya Warrior,Pediatrics,+91 9800022969,505
+290,Dr. Charvi Saraf,Cardiology,+91 9800023115,506

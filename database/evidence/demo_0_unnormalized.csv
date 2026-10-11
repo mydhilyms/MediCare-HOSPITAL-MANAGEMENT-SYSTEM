@@ -1,0 +1,181 @@
+appointment_id,patient_id,patient_name,branch_id,branch_location,doctor_id,doctor_name,appointment_date,medicines_list
+3001,1001,Bhavna Shankar,101,Kochi Main Hospital,201,Dr. Ekaja Thakkar,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3003,1003,Januja Shenoy,101,Kochi Main Hospital,202,Dr. Udant Salvi,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3005,1005,Jackson Sandal,101,Kochi Main Hospital,203,Dr. Ridhi Khatri,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3007,1011,Jairaj Shan,102,Ernakulam City Branch,204,Dr. Faris Choudhry,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3009,1013,Yachana Srinivas,102,Ernakulam City Branch,205,Dr. Guneet Sengupta,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3011,1015,Amruta Andra,102,Ernakulam City Branch,206,Dr. Vritti Murthy,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3013,1021,Raksha Varma,103,Thrissur Medical Centre,208,Dr. Ishanvi Puri,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3015,1023,Varenya Bhatt,103,Thrissur Medical Centre,207,Dr. Mekhala Krishnamurthy,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3017,1025,Robert Sabharwal,103,Thrissur Medical Centre,209,Dr. Harini Chakraborty,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3019,1017,Jagvi Iyengar,102,Ernakulam City Branch,201,Dr. Ekaja Thakkar,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3021,1007,Osha Srinivas,101,Kochi Main Hospital,202,Dr. Udant Salvi,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3023,1009,Harshil Sanghvi,101,Kochi Main Hospital,203,Dr. Ridhi Khatri,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3025,1001,Bhavna Shankar,101,Kochi Main Hospital,204,Dr. Faris Choudhry,2024-07-13,801~Paracetamol 500mg~500mg~5
+3026,1019,Radha Bandi,102,Ernakulam City Branch,206,Dr. Vritti Murthy,2025-02-15,802~Amlodipine 5mg~5mg~10
+3027,1027,Aadi Seth,103,Thrissur Medical Centre,207,Dr. Mekhala Krishnamurthy,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3028,1020,Edhitha Shankar,102,Ernakulam City Branch,205,Dr. Guneet Sengupta,2025-08-14,804~Metformin 500mg~500mg~20
+3029,1028,Rushil Kota,103,Thrissur Medical Centre,208,Dr. Ishanvi Puri,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3030,1029,Chaitanya Loyal,103,Thrissur Medical Centre,209,Dr. Harini Chakraborty,2026-05-18,806~Omeprazole 20mg~20mg~30
+3037,1031,Omisha Borah,101,Kochi Main Hospital,210,Dr. Chakrika Bhatti,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3039,1033,Divya Agarwal,101,Kochi Main Hospital,211,Dr. Oeshi Andra,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3041,1035,Osha Kale,101,Kochi Main Hospital,212,Dr. Urmi Palan,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3043,1041,Vyanjana Wali,102,Ernakulam City Branch,213,Dr. Sai Morar,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3045,1043,Jyoti Ramesh,102,Ernakulam City Branch,214,Dr. Timothy Mallick,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3047,1045,Varenya Varty,102,Ernakulam City Branch,215,Dr. Zayan Contractor,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3049,1051,Harish Prashad,103,Thrissur Medical Centre,217,Dr. Dhruv Ray,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3051,1053,Akshay Raghavan,103,Thrissur Medical Centre,216,Dr. Anirudh Dhingra,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3053,1055,Bishakha Mital,103,Thrissur Medical Centre,218,Dr. Qasim Ramaswamy,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3055,1047,Lakshit Srivastava,102,Ernakulam City Branch,210,Dr. Chakrika Bhatti,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3057,1037,Vasudha Deep,101,Kochi Main Hospital,211,Dr. Oeshi Andra,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3059,1039,Isha Shanker,101,Kochi Main Hospital,212,Dr. Urmi Palan,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3061,1031,Omisha Borah,101,Kochi Main Hospital,213,Dr. Sai Morar,2024-07-13,801~Paracetamol 500mg~500mg~5
+3062,1049,Dakshesh Gera,102,Ernakulam City Branch,215,Dr. Zayan Contractor,2025-02-15,802~Amlodipine 5mg~5mg~10
+3063,1057,Azad Pillai,103,Thrissur Medical Centre,216,Dr. Anirudh Dhingra,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3064,1050,Turvi Krishnamurthy,102,Ernakulam City Branch,214,Dr. Timothy Mallick,2025-08-14,804~Metformin 500mg~500mg~20
+3065,1058,Harita Khosla,103,Thrissur Medical Centre,217,Dr. Dhruv Ray,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3066,1059,Veer Sunder,103,Thrissur Medical Centre,218,Dr. Qasim Ramaswamy,2026-05-18,806~Omeprazole 20mg~20mg~30
+3073,1061,Chanakya Nagar,101,Kochi Main Hospital,219,Dr. Indali Palla,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3075,1063,Fariq Ben,101,Kochi Main Hospital,220,Dr. Ekantika Sachdeva,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3077,1065,Pratyush Bail,101,Kochi Main Hospital,221,Dr. Oscar Dubey,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3079,1071,Elijah Wali,102,Ernakulam City Branch,222,Dr. Upadhriti Bandi,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3081,1073,Eiravati Munshi,102,Ernakulam City Branch,223,Dr. Rudra Mukhopadhyay,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3083,1075,Quincy Das,102,Ernakulam City Branch,224,Dr. Maanav Narain,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3085,1081,Ranveer Lalla,103,Thrissur Medical Centre,226,Dr. Amruta Parmer,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3087,1083,Utkarsh Varkey,103,Thrissur Medical Centre,225,Dr. Nihal Bhat,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3089,1085,Faqid Talwar,103,Thrissur Medical Centre,227,Dr. Maanav Batta,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3091,1077,Harinakshi Vig,102,Ernakulam City Branch,219,Dr. Indali Palla,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3093,1067,Zaid Mand,101,Kochi Main Hospital,220,Dr. Ekantika Sachdeva,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3095,1069,Lekha Toor,101,Kochi Main Hospital,221,Dr. Oscar Dubey,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3097,1061,Chanakya Nagar,101,Kochi Main Hospital,222,Dr. Upadhriti Bandi,2024-07-13,801~Paracetamol 500mg~500mg~5
+3098,1079,Xalak Walia,102,Ernakulam City Branch,224,Dr. Maanav Narain,2025-02-15,802~Amlodipine 5mg~5mg~10
+3099,1087,Logan Date,103,Thrissur Medical Centre,225,Dr. Nihal Bhat,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3100,1080,Wazir Basu,102,Ernakulam City Branch,223,Dr. Rudra Mukhopadhyay,2025-08-14,804~Metformin 500mg~500mg~20
+3101,1088,Brinda Bath,103,Thrissur Medical Centre,226,Dr. Amruta Parmer,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3102,1089,Ati Gopal,103,Thrissur Medical Centre,227,Dr. Maanav Batta,2026-05-18,806~Omeprazole 20mg~20mg~30
+3109,1091,Harita Minhas,101,Kochi Main Hospital,228,Dr. Madhavi Basak,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3111,1093,Ayaan Bedi,101,Kochi Main Hospital,229,Dr. Yashawini Sehgal,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3113,1095,Wriddhish Mohanty,101,Kochi Main Hospital,230,Dr. Dev Shenoy,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3115,1101,Ishaan Hayre,102,Ernakulam City Branch,231,Dr. Arin Singhal,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3117,1103,Indali Shetty,102,Ernakulam City Branch,232,Dr. Eiravati Dugal,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3119,1105,Janaki Choudhury,102,Ernakulam City Branch,233,Dr. Ekaraj Soman,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3121,1111,Ekani Merchant,103,Thrissur Medical Centre,235,Dr. Nitesh Bajaj,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3123,1113,Aryan Palan,103,Thrissur Medical Centre,234,Dr. Maanas Chana,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3125,1115,Bhavna Prabhu,103,Thrissur Medical Centre,236,Dr. Vivaan Mallick,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3127,1107,Yutika Dalal,102,Ernakulam City Branch,228,Dr. Madhavi Basak,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3129,1097,Ishanvi Varty,101,Kochi Main Hospital,229,Dr. Yashawini Sehgal,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3131,1099,Ansh Mammen,101,Kochi Main Hospital,230,Dr. Dev Shenoy,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3133,1091,Harita Minhas,101,Kochi Main Hospital,231,Dr. Arin Singhal,2024-07-13,801~Paracetamol 500mg~500mg~5
+3134,1109,Keya Kothari,102,Ernakulam City Branch,233,Dr. Ekaraj Soman,2025-02-15,802~Amlodipine 5mg~5mg~10
+3135,1117,Quincy Venkataraman,103,Thrissur Medical Centre,234,Dr. Maanas Chana,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3136,1110,Ekiya Naidu,102,Ernakulam City Branch,232,Dr. Eiravati Dugal,2025-08-14,804~Metformin 500mg~500mg~20
+3137,1118,Pratyush Narula,103,Thrissur Medical Centre,235,Dr. Nitesh Bajaj,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3138,1119,Wahab Gulati,103,Thrissur Medical Centre,236,Dr. Vivaan Mallick,2026-05-18,806~Omeprazole 20mg~20mg~30
+3145,1121,Onkar Chahal,101,Kochi Main Hospital,237,Dr. Ayaan Kulkarni,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3147,1123,Ridhi Saha,101,Kochi Main Hospital,238,Dr. Indali Pillai,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3149,1125,Tripti Pillai,101,Kochi Main Hospital,239,Dr. Nakul Bhandari,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3151,1131,Darsh Khurana,102,Ernakulam City Branch,240,Dr. Hamsini Dani,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3153,1133,Lohit Kashyap,102,Ernakulam City Branch,241,Dr. Barkha Kannan,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3155,1135,Bhavna Ratta,102,Ernakulam City Branch,242,Dr. Harrison Dua,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3157,1141,Darika Tailor,103,Thrissur Medical Centre,244,Dr. Raghav Mand,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3159,1143,Niharika Iyengar,103,Thrissur Medical Centre,243,Dr. Kritika Shanker,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3161,1145,Gaurav Rastogi,103,Thrissur Medical Centre,245,Dr. Nilima Sheth,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3163,1137,Barkha Narain,102,Ernakulam City Branch,237,Dr. Ayaan Kulkarni,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3165,1127,Naveen Barad,101,Kochi Main Hospital,238,Dr. Indali Pillai,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3167,1129,Mitesh Merchant,101,Kochi Main Hospital,239,Dr. Nakul Bhandari,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3169,1121,Onkar Chahal,101,Kochi Main Hospital,240,Dr. Hamsini Dani,2024-07-13,801~Paracetamol 500mg~500mg~5
+3170,1139,Manthan Kumer,102,Ernakulam City Branch,242,Dr. Harrison Dua,2025-02-15,802~Amlodipine 5mg~5mg~10
+3171,1147,Harshil Saini,103,Thrissur Medical Centre,243,Dr. Kritika Shanker,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3172,1140,Mekhala Parekh,102,Ernakulam City Branch,241,Dr. Barkha Kannan,2025-08-14,804~Metformin 500mg~500mg~20
+3173,1148,Hemangini Dewan,103,Thrissur Medical Centre,244,Dr. Raghav Mand,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3174,1149,Anusha Rastogi,103,Thrissur Medical Centre,245,Dr. Nilima Sheth,2026-05-18,806~Omeprazole 20mg~20mg~30
+3181,1151,Triya Bhat,101,Kochi Main Hospital,246,Dr. Ishita Nagarajan,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3183,1153,Kashish Ramachandran,101,Kochi Main Hospital,247,Dr. Balhaar Kohli,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3185,1155,Fitan Koshy,101,Kochi Main Hospital,248,Dr. Hardik Thaman,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3187,1161,Ikshita Solanki,102,Ernakulam City Branch,249,Dr. Nakul Sachdev,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3189,1163,Hitesh Varty,102,Ernakulam City Branch,250,Dr. Alexander Sachdev,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3191,1165,Raghav Kibe,102,Ernakulam City Branch,251,Dr. Jatin Rastogi,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3193,1171,Ikshita Arya,103,Thrissur Medical Centre,253,Dr. Nidhi Ratta,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3195,1173,Omya Dara,103,Thrissur Medical Centre,252,Dr. Ridhi Raman,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3197,1175,Idika Deshpande,103,Thrissur Medical Centre,254,Dr. Sanaya Arya,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3199,1167,Chaman Loke,102,Ernakulam City Branch,246,Dr. Ishita Nagarajan,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3201,1157,Noah Rout,101,Kochi Main Hospital,247,Dr. Balhaar Kohli,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3203,1159,Azad Iyer,101,Kochi Main Hospital,248,Dr. Hardik Thaman,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3205,1151,Triya Bhat,101,Kochi Main Hospital,249,Dr. Nakul Sachdev,2024-07-13,801~Paracetamol 500mg~500mg~5
+3206,1169,Sneha Sengupta,102,Ernakulam City Branch,251,Dr. Jatin Rastogi,2025-02-15,802~Amlodipine 5mg~5mg~10
+3207,1177,Neelima Ahuja,103,Thrissur Medical Centre,252,Dr. Ridhi Raman,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3208,1170,Aishani Behl,102,Ernakulam City Branch,250,Dr. Alexander Sachdev,2025-08-14,804~Metformin 500mg~500mg~20
+3209,1178,Arunima Kamdar,103,Thrissur Medical Centre,253,Dr. Nidhi Ratta,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3210,1179,Triveni Mangal,103,Thrissur Medical Centre,254,Dr. Sanaya Arya,2026-05-18,806~Omeprazole 20mg~20mg~30
+3217,1181,Vihaan Mani,101,Kochi Main Hospital,255,Dr. Wazir Taneja,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3219,1183,Yahvi Bansal,101,Kochi Main Hospital,256,Dr. Vamakshi Manda,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3221,1185,Raghav Krishnamurthy,101,Kochi Main Hospital,257,Dr. Mohammed Swamy,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3223,1191,Gagan Dugar,102,Ernakulam City Branch,258,Dr. Daksh Madan,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3225,1193,Falak Krishna,102,Ernakulam City Branch,259,Dr. Brijesh Srinivas,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3227,1195,Jalsa Sura,102,Ernakulam City Branch,260,Dr. Hredhaan Sampath,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3229,1201,Oscar Palla,103,Thrissur Medical Centre,262,Dr. Devansh Chauhan,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3231,1203,Kevin Singhal,103,Thrissur Medical Centre,261,Dr. Janya Thakkar,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3233,1205,Jhalak Prashad,103,Thrissur Medical Centre,263,Dr. Samaksh Dalal,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3235,1197,Upkaar Setty,102,Ernakulam City Branch,255,Dr. Wazir Taneja,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3237,1187,Nicholas Ghose,101,Kochi Main Hospital,256,Dr. Vamakshi Manda,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3239,1189,Divya Hegde,101,Kochi Main Hospital,257,Dr. Mohammed Swamy,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3241,1181,Vihaan Mani,101,Kochi Main Hospital,258,Dr. Daksh Madan,2024-07-13,801~Paracetamol 500mg~500mg~5
+3242,1199,Tamanna Sundaram,102,Ernakulam City Branch,260,Dr. Hredhaan Sampath,2025-02-15,802~Amlodipine 5mg~5mg~10
+3243,1207,Divya Majumdar,103,Thrissur Medical Centre,261,Dr. Janya Thakkar,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3244,1200,Dhruv Chowdhury,102,Ernakulam City Branch,259,Dr. Brijesh Srinivas,2025-08-14,804~Metformin 500mg~500mg~20
+3245,1208,Maya Chopra,103,Thrissur Medical Centre,262,Dr. Devansh Chauhan,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3246,1209,Ekaraj Rai,103,Thrissur Medical Centre,263,Dr. Samaksh Dalal,2026-05-18,806~Omeprazole 20mg~20mg~30
+3253,1211,Aarini Khalsa,101,Kochi Main Hospital,264,Dr. Balhaar Cheema,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3255,1213,Chatura Sundaram,101,Kochi Main Hospital,265,Dr. Zehaan Rastogi,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3257,1215,Laban Randhawa,101,Kochi Main Hospital,266,Dr. Chaaya Doctor,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3259,1221,Jatin Devan,102,Ernakulam City Branch,267,Dr. Yadavi Naik,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3261,1223,Pooja Mammen,102,Ernakulam City Branch,268,Dr. Parth Merchant,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3263,1225,Adweta Chandra,102,Ernakulam City Branch,269,Dr. Forum Din,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3265,1231,Ekbal Ghose,103,Thrissur Medical Centre,271,Dr. Krishna Iyengar,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3267,1233,Oscar Tripathi,103,Thrissur Medical Centre,270,Dr. Devika Dora,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3269,1235,Aarini Korpal,103,Thrissur Medical Centre,272,Dr. Nandini Sheth,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3271,1227,Odika Shanker,102,Ernakulam City Branch,264,Dr. Balhaar Cheema,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3273,1217,Chanchal Sastry,101,Kochi Main Hospital,265,Dr. Zehaan Rastogi,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3275,1219,Vritti Balakrishnan,101,Kochi Main Hospital,266,Dr. Chaaya Doctor,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3277,1211,Aarini Khalsa,101,Kochi Main Hospital,267,Dr. Yadavi Naik,2024-07-13,801~Paracetamol 500mg~500mg~5
+3278,1229,Samar Kari,102,Ernakulam City Branch,269,Dr. Forum Din,2025-02-15,802~Amlodipine 5mg~5mg~10
+3279,1237,Jeet Desai,103,Thrissur Medical Centre,270,Dr. Devika Dora,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3280,1230,Champak Shan,102,Ernakulam City Branch,268,Dr. Parth Merchant,2025-08-14,804~Metformin 500mg~500mg~20
+3281,1238,Ladli Suri,103,Thrissur Medical Centre,271,Dr. Krishna Iyengar,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3282,1239,Michael Pau,103,Thrissur Medical Centre,272,Dr. Nandini Sheth,2026-05-18,806~Omeprazole 20mg~20mg~30
+3289,1241,Sanya Bhavsar,101,Kochi Main Hospital,273,Dr. Ayush Kar,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3291,1243,Fiyaz Gade,101,Kochi Main Hospital,274,Dr. Chatresh Om,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3293,1245,Chatura Prabhu,101,Kochi Main Hospital,275,Dr. Utkarsh Bandi,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3295,1251,Hiral Chanda,102,Ernakulam City Branch,276,Dr. Harita Dasgupta,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3297,1253,Naveen Keer,102,Ernakulam City Branch,277,Dr. Rudra Bhalla,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3299,1255,Vasudha Dugal,102,Ernakulam City Branch,278,Dr. Gautam Bhat,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3301,1261,Ekavir Patla,103,Thrissur Medical Centre,280,Dr. Darsh Kannan,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3303,1263,Nirja Narayanan,103,Thrissur Medical Centre,279,Dr. Hamsini Virk,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3305,1265,Jalsa Ganesan,103,Thrissur Medical Centre,281,Dr. Lekha Saraf,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3307,1257,Eta More,102,Ernakulam City Branch,273,Dr. Ayush Kar,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3309,1247,Bhavani Zachariah,101,Kochi Main Hospital,274,Dr. Chatresh Om,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3311,1249,Abdul Khanna,101,Kochi Main Hospital,275,Dr. Utkarsh Bandi,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3313,1241,Sanya Bhavsar,101,Kochi Main Hospital,276,Dr. Harita Dasgupta,2024-07-13,801~Paracetamol 500mg~500mg~5
+3314,1259,Omisha Lala,102,Ernakulam City Branch,278,Dr. Gautam Bhat,2025-02-15,802~Amlodipine 5mg~5mg~10
+3315,1267,Ijaya Parikh,103,Thrissur Medical Centre,279,Dr. Hamsini Virk,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3316,1260,Gopal Divan,102,Ernakulam City Branch,277,Dr. Rudra Bhalla,2025-08-14,804~Metformin 500mg~500mg~20
+3317,1268,Jagat Memon,103,Thrissur Medical Centre,280,Dr. Darsh Kannan,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3318,1269,Abha Amble,103,Thrissur Medical Centre,281,Dr. Lekha Saraf,2026-05-18,806~Omeprazole 20mg~20mg~30
+3325,1271,Caleb Kaul,101,Kochi Main Hospital,282,Dr. Triya Din,2020-02-10,801~Paracetamol 500mg~500mg~5|806~Omeprazole 20mg~20mg~10
+3327,1273,Yauvani Bains,101,Kochi Main Hospital,283,Dr. Yamini Natt,2020-03-11,802~Amlodipine 5mg~5mg~10|807~Cetirizine 10mg~10mg~15
+3329,1275,Ishita Gola,101,Kochi Main Hospital,284,Dr. Ekantika Sem,2020-04-12,803~Amoxicillin 250mg~250mg~15|808~Vitamin D3 1000IU~1000IU~20
+3331,1281,Advik Mahal,102,Ernakulam City Branch,285,Dr. Dipta Karan,2021-05-13,804~Metformin 500mg~500mg~20|809~Ibuprofen 200mg~200mg~25
+3333,1283,Jagdish Ghosh,102,Ernakulam City Branch,286,Dr. Anay Master,2021-06-14,805~Atorvastatin 10mg~10mg~25|810~Losartan 50mg~50mg~30
+3335,1285,Rayaan Kale,102,Ernakulam City Branch,287,Dr. Yash Baria,2021-07-15,806~Omeprazole 20mg~20mg~30|811~Salbutamol 2mg~2mg~5
+3337,1291,Bishakha Hari,103,Thrissur Medical Centre,289,Dr. Ekbal Chatterjee,2022-02-17,807~Cetirizine 10mg~10mg~5|812~Aspirin 75mg~75mg~10
+3339,1293,Ria Sarkar,103,Thrissur Medical Centre,288,Dr. Lavanya Warrior,2022-08-16,808~Vitamin D3 1000IU~1000IU~10|801~Paracetamol 500mg~500mg~15
+3341,1295,Faraj Doshi,103,Thrissur Medical Centre,290,Dr. Charvi Saraf,2023-03-18,809~Ibuprofen 200mg~200mg~15|802~Amlodipine 5mg~5mg~20
+3343,1287,Joshua Bandi,102,Ernakulam City Branch,282,Dr. Triya Din,2023-04-10,810~Losartan 50mg~50mg~20|803~Amoxicillin 250mg~250mg~25
+3345,1277,Victor Malhotra,101,Kochi Main Hospital,283,Dr. Yamini Natt,2023-05-11,811~Salbutamol 2mg~2mg~25|804~Metformin 500mg~500mg~30
+3347,1279,Janani Dua,101,Kochi Main Hospital,284,Dr. Ekantika Sem,2024-06-12,812~Aspirin 75mg~75mg~30|805~Atorvastatin 10mg~10mg~5
+3349,1271,Caleb Kaul,101,Kochi Main Hospital,285,Dr. Dipta Karan,2024-07-13,801~Paracetamol 500mg~500mg~5
+3350,1289,Anamika Muni,102,Ernakulam City Branch,287,Dr. Yash Baria,2025-02-15,802~Amlodipine 5mg~5mg~10
+3351,1297,Siddharth Minhas,103,Thrissur Medical Centre,288,Dr. Lavanya Warrior,2025-03-16,803~Amoxicillin 250mg~250mg~15
+3352,1290,Yasti Bhatnagar,102,Ernakulam City Branch,286,Dr. Anay Master,2025-08-14,804~Metformin 500mg~500mg~20
+3353,1298,Zehaan Ghose,103,Thrissur Medical Centre,289,Dr. Ekbal Chatterjee,2026-04-17,805~Atorvastatin 10mg~10mg~25
+3354,1299,Wazir Varughese,103,Thrissur Medical Centre,290,Dr. Charvi Saraf,2026-05-18,806~Omeprazole 20mg~20mg~30

@@ -1,0 +1,331 @@
+paper_row,department_branch_id,department_branch_location,department_branch_status,department_id,department_name,department_status,doctor_id,doctor_name,specialization,doctor_phone,shift_branch_id,shift_branch_location,shift_branch_status,shift_start,shift_end
+1,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,201, Dr. Ekaja Thakkar ,cardiology,+91 9800000038,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+2,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,202,Dr. Udant Salvi, Cardiology ,+91 9800000111,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+3,101,kochi main hospital,active,502, Neurology ,active,203,Dr. Ridhi Khatri,Neurology,+91 9800000184,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+4,101, Kochi Main Hospital , active ,501,Cardiology,active,201,Dr. Ekaja Thakkar,Cardiology,+91 9800000038,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+5,101,Kochi Main Hospital,active,501,Cardiology,active,201,  Dr. Ekaja Thakkar  ,Cardiology,+91 9800000038,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+6,101,Kochi Main Hospital,active,501,Cardiology,  active  ,201,DR. EKAJA THAKKAR,  Cardiology  ,+91 9800000038,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+7,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,204,dr. faris choudhry,ORTHOPEDICS,+91 9800000257,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+8,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,205, Dr. Guneet Sengupta ,orthopedics,+91 9800000330,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+9,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,206,Dr. Vritti Murthy, General Medicine ,+91 9800000403,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+10,103,thrissur medical centre,active,506, Cardiology ,active,208,Dr. Ishanvi Puri,Cardiology,+91 9800000549,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+11,103, Thrissur Medical Centre , active ,505,Pediatrics,active,207,Dr. Mekhala Krishnamurthy,Pediatrics,+91 9800000476,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+12,102,Ernakulam City Branch,active,503,Orthopedics,active,204,  Dr. Faris Choudhry  ,Orthopedics,+91 9800000257,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+13,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,204,DR. FARIS CHOUDHRY,  Orthopedics  ,+91 9800000257,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+14,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,204,dr. faris choudhry,ORTHOPEDICS,+91 9800000257,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+15,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,209, Dr. Harini Chakraborty ,cardiology,+91 9800000622,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+16,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,201,Dr. Ekaja Thakkar, Cardiology ,+91 9800000038,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+17,101,kochi main hospital,active,501, Cardiology ,active,202,Dr. Udant Salvi,Cardiology,+91 9800000111,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+18,101, Kochi Main Hospital , active ,502,Neurology,active,203,Dr. Ridhi Khatri,Neurology,+91 9800000184,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+19,102,Ernakulam City Branch,active,503,Orthopedics,active,204,  Dr. Faris Choudhry  ,Orthopedics,+91 9800000257,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+20,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,208,DR. ISHANVI PURI,  Cardiology  ,+91 9800000549,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+21,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,208,dr. ishanvi puri,CARDIOLOGY,+91 9800000549,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+22,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,208, Dr. Ishanvi Puri ,cardiology,+91 9800000549,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+23,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,206,Dr. Vritti Murthy, General Medicine ,+91 9800000403,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+24,103,thrissur medical centre,active,505, Pediatrics ,active,207,Dr. Mekhala Krishnamurthy,Pediatrics,+91 9800000476,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+25,102, Ernakulam City Branch , active ,503,Orthopedics,active,205,Dr. Guneet Sengupta,Orthopedics,+91 9800000330,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+26,103,Thrissur Medical Centre,active,506,Cardiology,active,208,  Dr. Ishanvi Puri  ,Cardiology,+91 9800000549,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+27,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,209,DR. HARINI CHAKRABORTY,  Cardiology  ,+91 9800000622,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+28,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,201,dr. ekaja thakkar,CARDIOLOGY,+91 9800000038,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+29,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,202, Dr. Udant Salvi ,cardiology,+91 9800000111,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+30,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,204,Dr. Faris Choudhry, Orthopedics ,+91 9800000257,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+31,102,ernakulam city branch,active,503, Orthopedics ,active,205,Dr. Guneet Sengupta,Orthopedics,+91 9800000330,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+32,103, Thrissur Medical Centre , active ,506,Cardiology,active,208,Dr. Ishanvi Puri,Cardiology,+91 9800000549,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+33,103,Thrissur Medical Centre,active,506,Cardiology,active,209,  Dr. Harini Chakraborty  ,Cardiology,+91 9800000622,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+34,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,210, Dr. Chakrika Bhatti ,cardiology,+91 9800002553,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+35,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,211,Dr. Oeshi Andra, Cardiology ,+91 9800002626,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+36,101,kochi main hospital,active,502, Neurology ,active,212,Dr. Urmi Palan,Neurology,+91 9800002699,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+37,101, Kochi Main Hospital , active ,501,Cardiology,active,210,Dr. Chakrika Bhatti,Cardiology,+91 9800002553,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+38,101,Kochi Main Hospital,active,501,Cardiology,active,210,  Dr. Chakrika Bhatti  ,Cardiology,+91 9800002553,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+39,101,Kochi Main Hospital,active,501,Cardiology,  active  ,210,DR. CHAKRIKA BHATTI,  Cardiology  ,+91 9800002553,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+40,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,213,dr. sai morar,ORTHOPEDICS,+91 9800002772,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+41,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,214, Dr. Timothy Mallick ,orthopedics,+91 9800002845,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+42,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,215,Dr. Zayan Contractor, General Medicine ,+91 9800002918,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+43,103,thrissur medical centre,active,506, Cardiology ,active,217,Dr. Dhruv Ray,Cardiology,+91 9800003064,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+44,103, Thrissur Medical Centre , active ,505,Pediatrics,active,216,Dr. Anirudh Dhingra,Pediatrics,+91 9800002991,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+45,102,Ernakulam City Branch,active,503,Orthopedics,active,213,  Dr. Sai Morar  ,Orthopedics,+91 9800002772,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+46,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,213,DR. SAI MORAR,  Orthopedics  ,+91 9800002772,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+47,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,213,dr. sai morar,ORTHOPEDICS,+91 9800002772,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+48,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,218, Dr. Qasim Ramaswamy ,cardiology,+91 9800003137,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+49,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,210,Dr. Chakrika Bhatti, Cardiology ,+91 9800002553,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+50,101,kochi main hospital,active,501, Cardiology ,active,211,Dr. Oeshi Andra,Cardiology,+91 9800002626,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+51,101, Kochi Main Hospital , active ,502,Neurology,active,212,Dr. Urmi Palan,Neurology,+91 9800002699,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+52,102,Ernakulam City Branch,active,503,Orthopedics,active,213,  Dr. Sai Morar  ,Orthopedics,+91 9800002772,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+53,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,217,DR. DHRUV RAY,  Cardiology  ,+91 9800003064,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+54,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,217,dr. dhruv ray,CARDIOLOGY,+91 9800003064,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+55,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,217, Dr. Dhruv Ray ,cardiology,+91 9800003064,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+56,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,215,Dr. Zayan Contractor, General Medicine ,+91 9800002918,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+57,103,thrissur medical centre,active,505, Pediatrics ,active,216,Dr. Anirudh Dhingra,Pediatrics,+91 9800002991,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+58,102, Ernakulam City Branch , active ,503,Orthopedics,active,214,Dr. Timothy Mallick,Orthopedics,+91 9800002845,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+59,103,Thrissur Medical Centre,active,506,Cardiology,active,217,  Dr. Dhruv Ray  ,Cardiology,+91 9800003064,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+60,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,218,DR. QASIM RAMASWAMY,  Cardiology  ,+91 9800003137,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+61,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,210,dr. chakrika bhatti,CARDIOLOGY,+91 9800002553,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+62,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,211, Dr. Oeshi Andra ,cardiology,+91 9800002626,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+63,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,213,Dr. Sai Morar, Orthopedics ,+91 9800002772,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+64,102,ernakulam city branch,active,503, Orthopedics ,active,214,Dr. Timothy Mallick,Orthopedics,+91 9800002845,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+65,103, Thrissur Medical Centre , active ,506,Cardiology,active,217,Dr. Dhruv Ray,Cardiology,+91 9800003064,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+66,103,Thrissur Medical Centre,active,506,Cardiology,active,218,  Dr. Qasim Ramaswamy  ,Cardiology,+91 9800003137,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+67,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,219, Dr. Indali Palla ,cardiology,+91 9800005068,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+68,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,220,Dr. Ekantika Sachdeva, Cardiology ,+91 9800005141,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+69,101,kochi main hospital,active,502, Neurology ,active,221,Dr. Oscar Dubey,Neurology,+91 9800005214,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+70,101, Kochi Main Hospital , active ,501,Cardiology,active,219,Dr. Indali Palla,Cardiology,+91 9800005068,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+71,101,Kochi Main Hospital,active,501,Cardiology,active,219,  Dr. Indali Palla  ,Cardiology,+91 9800005068,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+72,101,Kochi Main Hospital,active,501,Cardiology,  active  ,219,DR. INDALI PALLA,  Cardiology  ,+91 9800005068,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+73,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,222,dr. upadhriti bandi,ORTHOPEDICS,+91 9800005287,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+74,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,223, Dr. Rudra Mukhopadhyay ,orthopedics,+91 9800005360,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+75,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,224,Dr. Maanav Narain, General Medicine ,+91 9800005433,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+76,103,thrissur medical centre,active,506, Cardiology ,active,226,Dr. Amruta Parmer,Cardiology,+91 9800005579,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+77,103, Thrissur Medical Centre , active ,505,Pediatrics,active,225,Dr. Nihal Bhat,Pediatrics,+91 9800005506,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+78,102,Ernakulam City Branch,active,503,Orthopedics,active,222,  Dr. Upadhriti Bandi  ,Orthopedics,+91 9800005287,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+79,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,222,DR. UPADHRITI BANDI,  Orthopedics  ,+91 9800005287,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+80,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,222,dr. upadhriti bandi,ORTHOPEDICS,+91 9800005287,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+81,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,227, Dr. Maanav Batta ,cardiology,+91 9800005652,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+82,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,219,Dr. Indali Palla, Cardiology ,+91 9800005068,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+83,101,kochi main hospital,active,501, Cardiology ,active,220,Dr. Ekantika Sachdeva,Cardiology,+91 9800005141,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+84,101, Kochi Main Hospital , active ,502,Neurology,active,221,Dr. Oscar Dubey,Neurology,+91 9800005214,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+85,102,Ernakulam City Branch,active,503,Orthopedics,active,222,  Dr. Upadhriti Bandi  ,Orthopedics,+91 9800005287,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+86,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,226,DR. AMRUTA PARMER,  Cardiology  ,+91 9800005579,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+87,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,226,dr. amruta parmer,CARDIOLOGY,+91 9800005579,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+88,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,226, Dr. Amruta Parmer ,cardiology,+91 9800005579,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+89,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,224,Dr. Maanav Narain, General Medicine ,+91 9800005433,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+90,103,thrissur medical centre,active,505, Pediatrics ,active,225,Dr. Nihal Bhat,Pediatrics,+91 9800005506,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+91,102, Ernakulam City Branch , active ,503,Orthopedics,active,223,Dr. Rudra Mukhopadhyay,Orthopedics,+91 9800005360,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+92,103,Thrissur Medical Centre,active,506,Cardiology,active,226,  Dr. Amruta Parmer  ,Cardiology,+91 9800005579,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+93,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,227,DR. MAANAV BATTA,  Cardiology  ,+91 9800005652,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+94,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,219,dr. indali palla,CARDIOLOGY,+91 9800005068,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+95,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,220, Dr. Ekantika Sachdeva ,cardiology,+91 9800005141,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+96,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,222,Dr. Upadhriti Bandi, Orthopedics ,+91 9800005287,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+97,102,ernakulam city branch,active,503, Orthopedics ,active,223,Dr. Rudra Mukhopadhyay,Orthopedics,+91 9800005360,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+98,103, Thrissur Medical Centre , active ,506,Cardiology,active,226,Dr. Amruta Parmer,Cardiology,+91 9800005579,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+99,103,Thrissur Medical Centre,active,506,Cardiology,active,227,  Dr. Maanav Batta  ,Cardiology,+91 9800005652,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+100,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,228, Dr. Madhavi Basak ,cardiology,+91 9800007512,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+101,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,229,Dr. Yashawini Sehgal, Cardiology ,+91 9800007585,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+102,101,kochi main hospital,active,502, Neurology ,active,230,Dr. Dev Shenoy,Neurology,+91 9800007658,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+103,101, Kochi Main Hospital , active ,501,Cardiology,active,228,Dr. Madhavi Basak,Cardiology,+91 9800007512,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+104,101,Kochi Main Hospital,active,501,Cardiology,active,228,  Dr. Madhavi Basak  ,Cardiology,+91 9800007512,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+105,101,Kochi Main Hospital,active,501,Cardiology,  active  ,228,DR. MADHAVI BASAK,  Cardiology  ,+91 9800007512,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+106,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,231,dr. arin singhal,ORTHOPEDICS,+91 9800007731,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+107,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,232, Dr. Eiravati Dugal ,orthopedics,+91 9800007804,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+108,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,233,Dr. Ekaraj Soman, General Medicine ,+91 9800007877,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+109,103,thrissur medical centre,active,506, Cardiology ,active,235,Dr. Nitesh Bajaj,Cardiology,+91 9800008023,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+110,103, Thrissur Medical Centre , active ,505,Pediatrics,active,234,Dr. Maanas Chana,Pediatrics,+91 9800007950,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+111,102,Ernakulam City Branch,active,503,Orthopedics,active,231,  Dr. Arin Singhal  ,Orthopedics,+91 9800007731,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+112,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,231,DR. ARIN SINGHAL,  Orthopedics  ,+91 9800007731,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+113,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,231,dr. arin singhal,ORTHOPEDICS,+91 9800007731,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+114,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,236, Dr. Vivaan Mallick ,cardiology,+91 9800008096,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+115,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,228,Dr. Madhavi Basak, Cardiology ,+91 9800007512,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+116,101,kochi main hospital,active,501, Cardiology ,active,229,Dr. Yashawini Sehgal,Cardiology,+91 9800007585,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+117,101, Kochi Main Hospital , active ,502,Neurology,active,230,Dr. Dev Shenoy,Neurology,+91 9800007658,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+118,102,Ernakulam City Branch,active,503,Orthopedics,active,231,  Dr. Arin Singhal  ,Orthopedics,+91 9800007731,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+119,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,235,DR. NITESH BAJAJ,  Cardiology  ,+91 9800008023,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+120,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,235,dr. nitesh bajaj,CARDIOLOGY,+91 9800008023,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+121,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,235, Dr. Nitesh Bajaj ,cardiology,+91 9800008023,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+122,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,233,Dr. Ekaraj Soman, General Medicine ,+91 9800007877,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+123,103,thrissur medical centre,active,505, Pediatrics ,active,234,Dr. Maanas Chana,Pediatrics,+91 9800007950,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+124,102, Ernakulam City Branch , active ,503,Orthopedics,active,232,Dr. Eiravati Dugal,Orthopedics,+91 9800007804,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+125,103,Thrissur Medical Centre,active,506,Cardiology,active,235,  Dr. Nitesh Bajaj  ,Cardiology,+91 9800008023,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+126,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,236,DR. VIVAAN MALLICK,  Cardiology  ,+91 9800008096,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+127,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,228,dr. madhavi basak,CARDIOLOGY,+91 9800007512,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+128,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,229, Dr. Yashawini Sehgal ,cardiology,+91 9800007585,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+129,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,231,Dr. Arin Singhal, Orthopedics ,+91 9800007731,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+130,102,ernakulam city branch,active,503, Orthopedics ,active,232,Dr. Eiravati Dugal,Orthopedics,+91 9800007804,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+131,103, Thrissur Medical Centre , active ,506,Cardiology,active,235,Dr. Nitesh Bajaj,Cardiology,+91 9800008023,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+132,103,Thrissur Medical Centre,active,506,Cardiology,active,236,  Dr. Vivaan Mallick  ,Cardiology,+91 9800008096,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+133,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,237, Dr. Ayaan Kulkarni ,cardiology,+91 9800010027,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+134,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,238,Dr. Indali Pillai, Cardiology ,+91 9800010100,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+135,101,kochi main hospital,active,502, Neurology ,active,239,Dr. Nakul Bhandari,Neurology,+91 9800010173,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+136,101, Kochi Main Hospital , active ,501,Cardiology,active,237,Dr. Ayaan Kulkarni,Cardiology,+91 9800010027,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+137,101,Kochi Main Hospital,active,501,Cardiology,active,237,  Dr. Ayaan Kulkarni  ,Cardiology,+91 9800010027,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+138,101,Kochi Main Hospital,active,501,Cardiology,  active  ,237,DR. AYAAN KULKARNI,  Cardiology  ,+91 9800010027,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+139,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,240,dr. hamsini dani,ORTHOPEDICS,+91 9800010246,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+140,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,241, Dr. Barkha Kannan ,orthopedics,+91 9800010319,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+141,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,242,Dr. Harrison Dua, General Medicine ,+91 9800010392,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+142,103,thrissur medical centre,active,506, Cardiology ,active,244,Dr. Raghav Mand,Cardiology,+91 9800010538,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+143,103, Thrissur Medical Centre , active ,505,Pediatrics,active,243,Dr. Kritika Shanker,Pediatrics,+91 9800010465,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+144,102,Ernakulam City Branch,active,503,Orthopedics,active,240,  Dr. Hamsini Dani  ,Orthopedics,+91 9800010246,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+145,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,240,DR. HAMSINI DANI,  Orthopedics  ,+91 9800010246,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+146,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,240,dr. hamsini dani,ORTHOPEDICS,+91 9800010246,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+147,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,245, Dr. Nilima Sheth ,cardiology,+91 9800010611,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+148,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,237,Dr. Ayaan Kulkarni, Cardiology ,+91 9800010027,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+149,101,kochi main hospital,active,501, Cardiology ,active,238,Dr. Indali Pillai,Cardiology,+91 9800010100,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+150,101, Kochi Main Hospital , active ,502,Neurology,active,239,Dr. Nakul Bhandari,Neurology,+91 9800010173,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+151,102,Ernakulam City Branch,active,503,Orthopedics,active,240,  Dr. Hamsini Dani  ,Orthopedics,+91 9800010246,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+152,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,244,DR. RAGHAV MAND,  Cardiology  ,+91 9800010538,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+153,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,244,dr. raghav mand,CARDIOLOGY,+91 9800010538,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+154,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,244, Dr. Raghav Mand ,cardiology,+91 9800010538,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+155,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,242,Dr. Harrison Dua, General Medicine ,+91 9800010392,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+156,103,thrissur medical centre,active,505, Pediatrics ,active,243,Dr. Kritika Shanker,Pediatrics,+91 9800010465,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+157,102, Ernakulam City Branch , active ,503,Orthopedics,active,241,Dr. Barkha Kannan,Orthopedics,+91 9800010319,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+158,103,Thrissur Medical Centre,active,506,Cardiology,active,244,  Dr. Raghav Mand  ,Cardiology,+91 9800010538,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+159,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,245,DR. NILIMA SHETH,  Cardiology  ,+91 9800010611,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+160,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,237,dr. ayaan kulkarni,CARDIOLOGY,+91 9800010027,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+161,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,238, Dr. Indali Pillai ,cardiology,+91 9800010100,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+162,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,240,Dr. Hamsini Dani, Orthopedics ,+91 9800010246,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+163,102,ernakulam city branch,active,503, Orthopedics ,active,241,Dr. Barkha Kannan,Orthopedics,+91 9800010319,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+164,103, Thrissur Medical Centre , active ,506,Cardiology,active,244,Dr. Raghav Mand,Cardiology,+91 9800010538,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+165,103,Thrissur Medical Centre,active,506,Cardiology,active,245,  Dr. Nilima Sheth  ,Cardiology,+91 9800010611,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+166,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,246, Dr. Ishita Nagarajan ,cardiology,+91 9800012542,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+167,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,247,Dr. Balhaar Kohli, Cardiology ,+91 9800012615,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+168,101,kochi main hospital,active,502, Neurology ,active,248,Dr. Hardik Thaman,Neurology,+91 9800012688,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+169,101, Kochi Main Hospital , active ,501,Cardiology,active,246,Dr. Ishita Nagarajan,Cardiology,+91 9800012542,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+170,101,Kochi Main Hospital,active,501,Cardiology,active,246,  Dr. Ishita Nagarajan  ,Cardiology,+91 9800012542,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+171,101,Kochi Main Hospital,active,501,Cardiology,  active  ,246,DR. ISHITA NAGARAJAN,  Cardiology  ,+91 9800012542,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+172,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,249,dr. nakul sachdev,ORTHOPEDICS,+91 9800012761,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+173,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,250, Dr. Alexander Sachdev ,orthopedics,+91 9800012834,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+174,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,251,Dr. Jatin Rastogi, General Medicine ,+91 9800012907,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+175,103,thrissur medical centre,active,506, Cardiology ,active,253,Dr. Nidhi Ratta,Cardiology,+91 9800013053,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+176,103, Thrissur Medical Centre , active ,505,Pediatrics,active,252,Dr. Ridhi Raman,Pediatrics,+91 9800012980,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+177,102,Ernakulam City Branch,active,503,Orthopedics,active,249,  Dr. Nakul Sachdev  ,Orthopedics,+91 9800012761,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+178,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,249,DR. NAKUL SACHDEV,  Orthopedics  ,+91 9800012761,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+179,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,249,dr. nakul sachdev,ORTHOPEDICS,+91 9800012761,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+180,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,254, Dr. Sanaya Arya ,cardiology,+91 9800013126,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+181,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,246,Dr. Ishita Nagarajan, Cardiology ,+91 9800012542,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+182,101,kochi main hospital,active,501, Cardiology ,active,247,Dr. Balhaar Kohli,Cardiology,+91 9800012615,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+183,101, Kochi Main Hospital , active ,502,Neurology,active,248,Dr. Hardik Thaman,Neurology,+91 9800012688,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+184,102,Ernakulam City Branch,active,503,Orthopedics,active,249,  Dr. Nakul Sachdev  ,Orthopedics,+91 9800012761,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+185,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,253,DR. NIDHI RATTA,  Cardiology  ,+91 9800013053,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+186,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,253,dr. nidhi ratta,CARDIOLOGY,+91 9800013053,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+187,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,253, Dr. Nidhi Ratta ,cardiology,+91 9800013053,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+188,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,251,Dr. Jatin Rastogi, General Medicine ,+91 9800012907,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+189,103,thrissur medical centre,active,505, Pediatrics ,active,252,Dr. Ridhi Raman,Pediatrics,+91 9800012980,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+190,102, Ernakulam City Branch , active ,503,Orthopedics,active,250,Dr. Alexander Sachdev,Orthopedics,+91 9800012834,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+191,103,Thrissur Medical Centre,active,506,Cardiology,active,253,  Dr. Nidhi Ratta  ,Cardiology,+91 9800013053,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+192,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,254,DR. SANAYA ARYA,  Cardiology  ,+91 9800013126,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+193,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,246,dr. ishita nagarajan,CARDIOLOGY,+91 9800012542,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+194,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,247, Dr. Balhaar Kohli ,cardiology,+91 9800012615,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+195,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,249,Dr. Nakul Sachdev, Orthopedics ,+91 9800012761,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+196,102,ernakulam city branch,active,503, Orthopedics ,active,250,Dr. Alexander Sachdev,Orthopedics,+91 9800012834,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+197,103, Thrissur Medical Centre , active ,506,Cardiology,active,253,Dr. Nidhi Ratta,Cardiology,+91 9800013053,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+198,103,Thrissur Medical Centre,active,506,Cardiology,active,254,  Dr. Sanaya Arya  ,Cardiology,+91 9800013126,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+199,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,255, Dr. Wazir Taneja ,cardiology,+91 9800015057,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+200,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,256,Dr. Vamakshi Manda, Cardiology ,+91 9800015130,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+201,101,kochi main hospital,active,502, Neurology ,active,257,Dr. Mohammed Swamy,Neurology,+91 9800015203,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+202,101, Kochi Main Hospital , active ,501,Cardiology,active,255,Dr. Wazir Taneja,Cardiology,+91 9800015057,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+203,101,Kochi Main Hospital,active,501,Cardiology,active,255,  Dr. Wazir Taneja  ,Cardiology,+91 9800015057,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+204,101,Kochi Main Hospital,active,501,Cardiology,  active  ,255,DR. WAZIR TANEJA,  Cardiology  ,+91 9800015057,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+205,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,258,dr. daksh madan,ORTHOPEDICS,+91 9800015276,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+206,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,259, Dr. Brijesh Srinivas ,orthopedics,+91 9800015349,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+207,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,260,Dr. Hredhaan Sampath, General Medicine ,+91 9800015422,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+208,103,thrissur medical centre,active,506, Cardiology ,active,262,Dr. Devansh Chauhan,Cardiology,+91 9800015568,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+209,103, Thrissur Medical Centre , active ,505,Pediatrics,active,261,Dr. Janya Thakkar,Pediatrics,+91 9800015495,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+210,102,Ernakulam City Branch,active,503,Orthopedics,active,258,  Dr. Daksh Madan  ,Orthopedics,+91 9800015276,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+211,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,258,DR. DAKSH MADAN,  Orthopedics  ,+91 9800015276,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+212,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,258,dr. daksh madan,ORTHOPEDICS,+91 9800015276,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+213,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,263, Dr. Samaksh Dalal ,cardiology,+91 9800015641,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+214,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,255,Dr. Wazir Taneja, Cardiology ,+91 9800015057,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+215,101,kochi main hospital,active,501, Cardiology ,active,256,Dr. Vamakshi Manda,Cardiology,+91 9800015130,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+216,101, Kochi Main Hospital , active ,502,Neurology,active,257,Dr. Mohammed Swamy,Neurology,+91 9800015203,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+217,102,Ernakulam City Branch,active,503,Orthopedics,active,258,  Dr. Daksh Madan  ,Orthopedics,+91 9800015276,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+218,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,262,DR. DEVANSH CHAUHAN,  Cardiology  ,+91 9800015568,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+219,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,262,dr. devansh chauhan,CARDIOLOGY,+91 9800015568,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+220,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,262, Dr. Devansh Chauhan ,cardiology,+91 9800015568,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+221,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,260,Dr. Hredhaan Sampath, General Medicine ,+91 9800015422,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+222,103,thrissur medical centre,active,505, Pediatrics ,active,261,Dr. Janya Thakkar,Pediatrics,+91 9800015495,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+223,102, Ernakulam City Branch , active ,503,Orthopedics,active,259,Dr. Brijesh Srinivas,Orthopedics,+91 9800015349,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+224,103,Thrissur Medical Centre,active,506,Cardiology,active,262,  Dr. Devansh Chauhan  ,Cardiology,+91 9800015568,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+225,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,263,DR. SAMAKSH DALAL,  Cardiology  ,+91 9800015641,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+226,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,255,dr. wazir taneja,CARDIOLOGY,+91 9800015057,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+227,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,256, Dr. Vamakshi Manda ,cardiology,+91 9800015130,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+228,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,258,Dr. Daksh Madan, Orthopedics ,+91 9800015276,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+229,102,ernakulam city branch,active,503, Orthopedics ,active,259,Dr. Brijesh Srinivas,Orthopedics,+91 9800015349,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+230,103, Thrissur Medical Centre , active ,506,Cardiology,active,262,Dr. Devansh Chauhan,Cardiology,+91 9800015568,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+231,103,Thrissur Medical Centre,active,506,Cardiology,active,263,  Dr. Samaksh Dalal  ,Cardiology,+91 9800015641,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+232,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,264, Dr. Balhaar Cheema ,cardiology,+91 9800017501,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+233,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,265,Dr. Zehaan Rastogi, Cardiology ,+91 9800017574,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+234,101,kochi main hospital,active,502, Neurology ,active,266,Dr. Chaaya Doctor,Neurology,+91 9800017647,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+235,101, Kochi Main Hospital , active ,501,Cardiology,active,264,Dr. Balhaar Cheema,Cardiology,+91 9800017501,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+236,101,Kochi Main Hospital,active,501,Cardiology,active,264,  Dr. Balhaar Cheema  ,Cardiology,+91 9800017501,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+237,101,Kochi Main Hospital,active,501,Cardiology,  active  ,264,DR. BALHAAR CHEEMA,  Cardiology  ,+91 9800017501,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+238,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,267,dr. yadavi naik,ORTHOPEDICS,+91 9800017720,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+239,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,268, Dr. Parth Merchant ,orthopedics,+91 9800017793,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+240,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,269,Dr. Forum Din, General Medicine ,+91 9800017866,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+241,103,thrissur medical centre,active,506, Cardiology ,active,271,Dr. Krishna Iyengar,Cardiology,+91 9800018012,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+242,103, Thrissur Medical Centre , active ,505,Pediatrics,active,270,Dr. Devika Dora,Pediatrics,+91 9800017939,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+243,102,Ernakulam City Branch,active,503,Orthopedics,active,267,  Dr. Yadavi Naik  ,Orthopedics,+91 9800017720,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+244,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,267,DR. YADAVI NAIK,  Orthopedics  ,+91 9800017720,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+245,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,267,dr. yadavi naik,ORTHOPEDICS,+91 9800017720,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+246,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,272, Dr. Nandini Sheth ,cardiology,+91 9800018085,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+247,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,264,Dr. Balhaar Cheema, Cardiology ,+91 9800017501,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+248,101,kochi main hospital,active,501, Cardiology ,active,265,Dr. Zehaan Rastogi,Cardiology,+91 9800017574,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+249,101, Kochi Main Hospital , active ,502,Neurology,active,266,Dr. Chaaya Doctor,Neurology,+91 9800017647,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+250,102,Ernakulam City Branch,active,503,Orthopedics,active,267,  Dr. Yadavi Naik  ,Orthopedics,+91 9800017720,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+251,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,271,DR. KRISHNA IYENGAR,  Cardiology  ,+91 9800018012,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+252,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,271,dr. krishna iyengar,CARDIOLOGY,+91 9800018012,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+253,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,271, Dr. Krishna Iyengar ,cardiology,+91 9800018012,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+254,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,269,Dr. Forum Din, General Medicine ,+91 9800017866,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+255,103,thrissur medical centre,active,505, Pediatrics ,active,270,Dr. Devika Dora,Pediatrics,+91 9800017939,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+256,102, Ernakulam City Branch , active ,503,Orthopedics,active,268,Dr. Parth Merchant,Orthopedics,+91 9800017793,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+257,103,Thrissur Medical Centre,active,506,Cardiology,active,271,  Dr. Krishna Iyengar  ,Cardiology,+91 9800018012,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+258,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,272,DR. NANDINI SHETH,  Cardiology  ,+91 9800018085,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+259,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,264,dr. balhaar cheema,CARDIOLOGY,+91 9800017501,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+260,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,265, Dr. Zehaan Rastogi ,cardiology,+91 9800017574,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+261,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,267,Dr. Yadavi Naik, Orthopedics ,+91 9800017720,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+262,102,ernakulam city branch,active,503, Orthopedics ,active,268,Dr. Parth Merchant,Orthopedics,+91 9800017793,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+263,103, Thrissur Medical Centre , active ,506,Cardiology,active,271,Dr. Krishna Iyengar,Cardiology,+91 9800018012,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+264,103,Thrissur Medical Centre,active,506,Cardiology,active,272,  Dr. Nandini Sheth  ,Cardiology,+91 9800018085,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+265,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,273, Dr. Ayush Kar ,cardiology,+91 9800020016,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+266,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,274,Dr. Chatresh Om, Cardiology ,+91 9800020089,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+267,101,kochi main hospital,active,502, Neurology ,active,275,Dr. Utkarsh Bandi,Neurology,+91 9800020162,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+268,101, Kochi Main Hospital , active ,501,Cardiology,active,273,Dr. Ayush Kar,Cardiology,+91 9800020016,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+269,101,Kochi Main Hospital,active,501,Cardiology,active,273,  Dr. Ayush Kar  ,Cardiology,+91 9800020016,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+270,101,Kochi Main Hospital,active,501,Cardiology,  active  ,273,DR. AYUSH KAR,  Cardiology  ,+91 9800020016,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+271,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,276,dr. harita dasgupta,ORTHOPEDICS,+91 9800020235,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+272,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,277, Dr. Rudra Bhalla ,orthopedics,+91 9800020308,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+273,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,278,Dr. Gautam Bhat, General Medicine ,+91 9800020381,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+274,103,thrissur medical centre,active,506, Cardiology ,active,280,Dr. Darsh Kannan,Cardiology,+91 9800020527,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+275,103, Thrissur Medical Centre , active ,505,Pediatrics,active,279,Dr. Hamsini Virk,Pediatrics,+91 9800020454,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+276,102,Ernakulam City Branch,active,503,Orthopedics,active,276,  Dr. Harita Dasgupta  ,Orthopedics,+91 9800020235,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+277,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,276,DR. HARITA DASGUPTA,  Orthopedics  ,+91 9800020235,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+278,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,276,dr. harita dasgupta,ORTHOPEDICS,+91 9800020235,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+279,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,281, Dr. Lekha Saraf ,cardiology,+91 9800020600,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+280,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,273,Dr. Ayush Kar, Cardiology ,+91 9800020016,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+281,101,kochi main hospital,active,501, Cardiology ,active,274,Dr. Chatresh Om,Cardiology,+91 9800020089,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+282,101, Kochi Main Hospital , active ,502,Neurology,active,275,Dr. Utkarsh Bandi,Neurology,+91 9800020162,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+283,102,Ernakulam City Branch,active,503,Orthopedics,active,276,  Dr. Harita Dasgupta  ,Orthopedics,+91 9800020235,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+284,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,280,DR. DARSH KANNAN,  Cardiology  ,+91 9800020527,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+285,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,280,dr. darsh kannan,CARDIOLOGY,+91 9800020527,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+286,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,280, Dr. Darsh Kannan ,cardiology,+91 9800020527,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+287,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,278,Dr. Gautam Bhat, General Medicine ,+91 9800020381,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+288,103,thrissur medical centre,active,505, Pediatrics ,active,279,Dr. Hamsini Virk,Pediatrics,+91 9800020454,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+289,102, Ernakulam City Branch , active ,503,Orthopedics,active,277,Dr. Rudra Bhalla,Orthopedics,+91 9800020308,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+290,103,Thrissur Medical Centre,active,506,Cardiology,active,280,  Dr. Darsh Kannan  ,Cardiology,+91 9800020527,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+291,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,281,DR. LEKHA SARAF,  Cardiology  ,+91 9800020600,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+292,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,273,dr. ayush kar,CARDIOLOGY,+91 9800020016,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+293,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,274, Dr. Chatresh Om ,cardiology,+91 9800020089,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+294,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,276,Dr. Harita Dasgupta, Orthopedics ,+91 9800020235,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+295,102,ernakulam city branch,active,503, Orthopedics ,active,277,Dr. Rudra Bhalla,Orthopedics,+91 9800020308,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+296,103, Thrissur Medical Centre , active ,506,Cardiology,active,280,Dr. Darsh Kannan,Cardiology,+91 9800020527,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+297,103,Thrissur Medical Centre,active,506,Cardiology,active,281,  Dr. Lekha Saraf  ,Cardiology,+91 9800020600,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00
+298,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,282, Dr. Triya Din ,cardiology,+91 9800022531,101,Kochi Main Hospital,active,2020-02-10 08:00:00,2020-02-10 17:00:00
+299,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,283,Dr. Yamini Natt, Cardiology ,+91 9800022604,101,Kochi Main Hospital, active ,2020-03-11 08:00:00,2020-03-11 17:00:00
+300,101,kochi main hospital,active,502, Neurology ,active,284,Dr. Ekantika Sem,Neurology,+91 9800022677,101,Kochi Main Hospital,active,2020-04-12 08:00:00,2020-04-12 17:00:00
+301,101, Kochi Main Hospital , active ,501,Cardiology,active,282,Dr. Triya Din,Cardiology,+91 9800022531,101,  Kochi Main Hospital  ,active,2020-09-03 09:00:00,2020-09-03 17:00:00
+302,101,Kochi Main Hospital,active,501,Cardiology,active,282,  Dr. Triya Din  ,Cardiology,+91 9800022531,101,KOCHI MAIN HOSPITAL,active,2020-09-10 09:00:00,2020-09-10 17:00:00
+303,101,Kochi Main Hospital,active,501,Cardiology,  active  ,282,DR. TRIYA DIN,  Cardiology  ,+91 9800022531,101,kochi main hospital,  active  ,2020-09-17 09:00:00,2020-09-17 17:00:00
+304,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,285,dr. dipta karan,ORTHOPEDICS,+91 9800022750,102, Ernakulam City Branch ,ACTIVE,2021-05-13 08:00:00,2021-05-13 17:00:00
+305,102,  Ernakulam City Branch  ,  active  ,503,ORTHOPEDICS,active,286, Dr. Anay Master ,orthopedics,+91 9800022823,102,Ernakulam City Branch,active,2021-06-14 08:00:00,2021-06-14 17:00:00
+306,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,287,Dr. Yash Baria, General Medicine ,+91 9800022896,102,Ernakulam City Branch, active ,2021-07-15 08:00:00,2021-07-15 17:00:00
+307,103,thrissur medical centre,active,506, Cardiology ,active,289,Dr. Ekbal Chatterjee,Cardiology,+91 9800023042,103,Thrissur Medical Centre,active,2022-02-17 08:00:00,2022-02-17 17:00:00
+308,103, Thrissur Medical Centre , active ,505,Pediatrics,active,288,Dr. Lavanya Warrior,Pediatrics,+91 9800022969,103,  Thrissur Medical Centre  ,active,2022-08-16 08:00:00,2022-08-16 17:00:00
+309,102,Ernakulam City Branch,active,503,Orthopedics,active,285,  Dr. Dipta Karan  ,Orthopedics,+91 9800022750,102,ERNAKULAM CITY BRANCH,active,2022-09-03 09:00:00,2022-09-03 17:00:00
+310,102,Ernakulam City Branch,active,503,Orthopedics,  active  ,285,DR. DIPTA KARAN,  Orthopedics  ,+91 9800022750,102,ernakulam city branch,  active  ,2022-09-10 09:00:00,2022-09-10 17:00:00
+311,102,Ernakulam City Branch,active,503,  Orthopedics  ,ACTIVE,285,dr. dipta karan,ORTHOPEDICS,+91 9800022750,102, Ernakulam City Branch ,ACTIVE,2022-09-17 09:00:00,2022-09-17 17:00:00
+312,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,290, Dr. Charvi Saraf ,cardiology,+91 9800023115,103,Thrissur Medical Centre,active,2023-03-18 08:00:00,2023-03-18 17:00:00
+313,101,KOCHI MAIN HOSPITAL,ACTIVE,501,cardiology, active ,282,Dr. Triya Din, Cardiology ,+91 9800022531,102,Ernakulam City Branch, active ,2023-04-10 08:00:00,2023-04-10 17:00:00
+314,101,kochi main hospital,active,501, Cardiology ,active,283,Dr. Yamini Natt,Cardiology,+91 9800022604,101,Kochi Main Hospital,active,2023-05-11 08:00:00,2023-05-11 17:00:00
+315,101, Kochi Main Hospital , active ,502,Neurology,active,284,Dr. Ekantika Sem,Neurology,+91 9800022677,101,  Kochi Main Hospital  ,active,2024-06-12 08:00:00,2024-06-12 17:00:00
+316,102,Ernakulam City Branch,active,503,Orthopedics,active,285,  Dr. Dipta Karan  ,Orthopedics,+91 9800022750,101,KOCHI MAIN HOSPITAL,active,2024-07-13 08:00:00,2024-07-13 17:00:00
+317,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,289,DR. EKBAL CHATTERJEE,  Cardiology  ,+91 9800023042,103,thrissur medical centre,  active  ,2024-09-03 09:00:00,2024-09-03 17:00:00
+318,103,Thrissur Medical Centre,active,506,  Cardiology  ,ACTIVE,289,dr. ekbal chatterjee,CARDIOLOGY,+91 9800023042,103, Thrissur Medical Centre ,ACTIVE,2024-09-10 09:00:00,2024-09-10 17:00:00
+319,103,  Thrissur Medical Centre  ,  active  ,506,CARDIOLOGY,active,289, Dr. Ekbal Chatterjee ,cardiology,+91 9800023042,103,Thrissur Medical Centre,active,2024-09-17 09:00:00,2024-09-17 17:00:00
+320,102,ERNAKULAM CITY BRANCH,ACTIVE,504,general medicine, active ,287,Dr. Yash Baria, General Medicine ,+91 9800022896,102,Ernakulam City Branch, active ,2025-02-15 08:00:00,2025-02-15 17:00:00
+321,103,thrissur medical centre,active,505, Pediatrics ,active,288,Dr. Lavanya Warrior,Pediatrics,+91 9800022969,103,Thrissur Medical Centre,active,2025-03-16 08:00:00,2025-03-16 17:00:00
+322,102, Ernakulam City Branch , active ,503,Orthopedics,active,286,Dr. Anay Master,Orthopedics,+91 9800022823,102,  Ernakulam City Branch  ,active,2025-08-14 08:00:00,2025-08-14 17:00:00
+323,103,Thrissur Medical Centre,active,506,Cardiology,active,289,  Dr. Ekbal Chatterjee  ,Cardiology,+91 9800023042,103,THRISSUR MEDICAL CENTRE,active,2026-04-17 08:00:00,2026-04-17 17:00:00
+324,103,Thrissur Medical Centre,active,506,Cardiology,  active  ,290,DR. CHARVI SARAF,  Cardiology  ,+91 9800023115,103,thrissur medical centre,  active  ,2026-05-18 08:00:00,2026-05-18 17:00:00
+325,101,Kochi Main Hospital,active,501,  Cardiology  ,ACTIVE,282,dr. triya din,CARDIOLOGY,+91 9800022531,101, Kochi Main Hospital ,ACTIVE,2026-11-11 08:00:00,2026-11-11 17:00:00
+326,101,  Kochi Main Hospital  ,  active  ,501,CARDIOLOGY,active,283, Dr. Yamini Natt ,cardiology,+91 9800022604,101,Kochi Main Hospital,active,2026-11-12 08:00:00,2026-11-12 17:00:00
+327,102,ERNAKULAM CITY BRANCH,ACTIVE,503,orthopedics, active ,285,Dr. Dipta Karan, Orthopedics ,+91 9800022750,102,Ernakulam City Branch, active ,2026-11-13 08:00:00,2026-11-13 17:00:00
+328,102,ernakulam city branch,active,503, Orthopedics ,active,286,Dr. Anay Master,Orthopedics,+91 9800022823,102,Ernakulam City Branch,active,2026-11-14 08:00:00,2026-11-14 17:00:00
+329,103, Thrissur Medical Centre , active ,506,Cardiology,active,289,Dr. Ekbal Chatterjee,Cardiology,+91 9800023042,103,  Thrissur Medical Centre  ,active,2026-11-15 08:00:00,2026-11-15 17:00:00
+330,103,Thrissur Medical Centre,active,506,Cardiology,active,290,  Dr. Charvi Saraf  ,Cardiology,+91 9800023115,103,THRISSUR MEDICAL CENTRE,active,2026-11-16 08:00:00,2026-11-16 17:00:00

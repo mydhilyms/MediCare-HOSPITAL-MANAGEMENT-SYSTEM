@@ -1,0 +1,94 @@
+<div class="page" id="page-appointments">
+  <div class="page-header flex items-center justify-between flex-wrap gap-4">
+    <div>
+      <h1 class="page-title">Appointment Management</h1>
+      <p class="page-subtitle">Schedule and manage patient appointments</p>
+    </div>
+    <button class="btn btn-primary" onclick="openModal('modal-appt-form')">
+      <i class="fas fa-calendar-plus"></i> New Appointment
+    </button>
+  </div>
+
+  <!-- Status Summary -->
+  <div class="flex gap-3 mb-6 flex-wrap">
+    <div class="card" style="padding:.85rem 1.25rem;display:flex;align-items:center;gap:.75rem;flex:1;min-width:130px">
+      <div style="width:40px;height:40px;background:#D1FAE5;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--success)"><i class="fas fa-check-circle"></i></div>
+      <div><div class="fw-800 text-xl">48</div><div class="text-xs text-muted">Confirmed</div></div>
+    </div>
+    <div class="card" style="padding:.85rem 1.25rem;display:flex;align-items:center;gap:.75rem;flex:1;min-width:130px">
+      <div style="width:40px;height:40px;background:#FEF3C7;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--warning)"><i class="fas fa-hourglass-half"></i></div>
+      <div><div class="fw-800 text-xl">23</div><div class="text-xs text-muted">Pending</div></div>
+    </div>
+    <div class="card" style="padding:.85rem 1.25rem;display:flex;align-items:center;gap:.75rem;flex:1;min-width:130px">
+      <div style="width:40px;height:40px;background:var(--gray-100);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--gray-500)"><i class="fas fa-check-double"></i></div>
+      <div><div class="fw-800 text-xl">31</div><div class="text-xs text-muted">Completed</div></div>
+    </div>
+    <div class="card" style="padding:.85rem 1.25rem;display:flex;align-items:center;gap:.75rem;flex:1;min-width:130px">
+      <div style="width:40px;height:40px;background:#FEE2E2;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--danger)"><i class="fas fa-times-circle"></i></div>
+      <div><div class="fw-800 text-xl">7</div><div class="text-xs text-muted">Cancelled</div></div>
+    </div>
+  </div>
+
+  <div class="two-col mb-6">
+    <!-- Calendar -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title"><i class="fas fa-calendar text-primary" style="margin-right:.5rem"></i>Calendar</span>
+      </div>
+      <div class="card-body" id="mini-calendar"></div>
+    </div>
+
+    <!-- Upcoming Today -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Upcoming Today</span>
+        <span class="badge badge-primary">8 remaining</span>
+      </div>
+      <div class="card-body" style="padding:.5rem 1rem">
+        <div style="display:flex;gap:.75rem;align-items:flex-start;padding:.75rem 0;border-bottom:1px solid var(--gray-100)">
+          <div style="text-align:center;min-width:42px"><div class="fw-700" style="font-size:.9rem;color:#2563EB">09:00</div><div class="text-xs text-muted">AM</div></div>
+          <div style="flex:1"><div class="fw-600" style="font-size:.875rem">Emma Johnson</div><div class="text-xs text-muted">Dr. Sarah Chen</div></div>
+          <span class="badge badge-primary" style="font-size:.68rem">Follow-up</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:flex-start;padding:.75rem 0;border-bottom:1px solid var(--gray-100)">
+          <div style="text-align:center;min-width:42px"><div class="fw-700" style="font-size:.9rem;color:#0D9488">10:30</div><div class="text-xs text-muted">AM</div></div>
+          <div style="flex:1"><div class="fw-600" style="font-size:.875rem">Michael Chen</div><div class="text-xs text-muted">Dr. James Wilson</div></div>
+          <span class="badge badge-primary" style="font-size:.68rem">Consultation</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:flex-start;padding:.75rem 0;border-bottom:1px solid var(--gray-100)">
+          <div style="text-align:center;min-width:42px"><div class="fw-700" style="font-size:.9rem;color:#8B5CF6">11:00</div><div class="text-xs text-muted">AM</div></div>
+          <div style="flex:1"><div class="fw-600" style="font-size:.875rem">Sophia Williams</div><div class="text-xs text-muted">Dr. Priya Nair</div></div>
+          <span class="badge badge-primary" style="font-size:.68rem">Check-up</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:flex-start;padding:.75rem 0">
+          <div style="text-align:center;min-width:42px"><div class="fw-700" style="font-size:.9rem;color:#F59E0B">02:00</div><div class="text-xs text-muted">PM</div></div>
+          <div style="flex:1"><div class="fw-600" style="font-size:.875rem">James Anderson</div><div class="text-xs text-muted">Dr. Daniel Lee</div></div>
+          <span class="badge badge-primary" style="font-size:.68rem">Follow-up</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header flex-wrap gap-3">
+      <span class="card-title">All Appointments</span>
+      <div class="flex gap-3 flex-wrap flex-1 justify-end">
+        <div class="search-bar" style="max-width:280px">
+          <i class="fas fa-search"></i>
+          <input type="search" id="appt-search" placeholder="Search appointments…" />
+        </div>
+        <select class="form-control" style="width:auto;padding:.6rem 2.2rem .6rem .9rem">
+          <option>All Status</option><option>Confirmed</option><option>Pending</option><option>Completed</option><option>Cancelled</option>
+        </select>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr><th>ID</th><th>Patient</th><th>Doctor</th><th>Department</th><th>Date</th><th>Time</th><th>Status</th><th>Type</th><th>Actions</th></tr>
+        </thead>
+        <tbody id="appt-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
